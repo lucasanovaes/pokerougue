@@ -1,0 +1,77 @@
+[
+  {
+    "file": "potion.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png",
+    "sha256": "db5a0fa2343c5761599d9efd4514a30125164ced094b55f760a763ed0c9c64d5"
+  },
+  {
+    "file": "hp-up.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hp-up.png",
+    "sha256": "9c0f6f1784ad96778e231c0d4c82dd9afbe664701e98a8e56ee59b3c897100da"
+  },
+  {
+    "file": "poke-ball.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png",
+    "sha256": "a4c7b9e8ff5727d10e6f679bcf16a963a95b2a36480d3bd9156d9808bdf54dff"
+  },
+  {
+    "file": "great-ball.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png",
+    "sha256": "4d0a614eebb4aef6b02a3620e4262f471b620cc8bc81cfeebeb3cbb995727ac6"
+  },
+  {
+    "file": "oran-berry.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png",
+    "sha256": "4d4d31e7c29a4540d5f438b87bb1762bf3cd7b0920e523fc9020f6c0bace1c1a"
+  },
+  {
+    "file": "revive.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png",
+    "sha256": "8ed02f56fcd0a8d2525811fbc33d82aebbe7af902ec6752b4857de821505a224"
+  },
+  {
+    "file": "dragon-fang.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png",
+    "sha256": "9bcca1e7a0c2710e49cfc1f6f305716c38a2f2bf7a003a59668bb593424c03e6"
+  },
+  {
+    "file": "miracle-seed.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png",
+    "sha256": "2fa7c32270c089d858976f0f262b436d1feca44d6469dabdb4c8250444163cf1"
+  },
+  {
+    "file": "wide-lens.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png",
+    "sha256": "9e6c6a270b00666a4a5d954d0e751d51eae9bb3da250bf277b071407217e71d4"
+  },
+  {
+    "file": "assault-vest.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png",
+    "sha256": "1460feea1310ecffceb7d3b157f53a4b0f9f38e68db12de880412dc97b2ef3a2"
+  },
+  {
+    "file": "poison-barb.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png",
+    "sha256": "01abc73e0c0d9016339cddcdf780969339734a51508003f4c659c5a4e3b7fd46"
+  },
+  {
+    "file": "black-sludge.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png",
+    "sha256": "abdceb134cb9cbde477175bbd4f78c44b315a6ff7f3395ebc90757908eccdf4f"
+  },
+  {
+    "file": "quick-claw.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png",
+    "sha256": "7495a24979a42b3995d079b4e4931580000df56c9105a8380ca2b068b9d5192f"
+  },
+  {
+    "file": "sitrus-berry.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png",
+    "sha256": "934d9dcfdc189fd01987f1e0356e079cf32d4d3aafac89ca3e77158c8f44c10e"
+  },
+  {
+    "file": "nugget.png",
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png",
+    "sha256": "6a1bfd5da5c95284196724458bbdf2febe5597fe5635bbda8d7e9649080d07f1"
+  }
+]

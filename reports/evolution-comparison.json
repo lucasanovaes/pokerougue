@@ -1,0 +1,3478 @@
+{
+  "seedsPerStarterCohort": 1000,
+  "runsPerVersion": 51000,
+  "policy": "Blind independent direction stream; visible-state combat heuristic; no future room inspection",
+  "nonTerminatingBefore": 0,
+  "nonTerminatingAfter": 0,
+  "note": "Same named seeds and blind bot; not human win rates. Pre-evolution comparison is separate from the untouched baseline-v1.",
+  "rows": [
+    {
+      "cohort": "baseline",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "baseline",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          770,
+          496,
+          269
+        ],
+        "cleared": [
+          502,
+          290,
+          131
+        ],
+        "bossClearPct": [
+          50.2,
+          29,
+          13.1
+        ],
+        "bossConditionalPct": [
+          65.2,
+          58.5,
+          48.7
+        ],
+        "fullRunPct": 13.1,
+        "meanFirstBossLevel": 7.7,
+        "meanFirstBossParty": 3.1,
+        "maxActions": 146
+      },
+      "after": {
+        "cohort": "baseline",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          770,
+          496,
+          269
+        ],
+        "cleared": [
+          502,
+          290,
+          131
+        ],
+        "bossClearPct": [
+          50.2,
+          29,
+          13.1
+        ],
+        "bossConditionalPct": [
+          65.2,
+          58.5,
+          48.7
+        ],
+        "fullRunPct": 13.1,
+        "meanFirstBossLevel": 7.7,
+        "meanFirstBossParty": 3.1,
+        "maxActions": 146
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        0,
+        0.0
+      ],
+      "deltaFullClearPercentagePoints": 0.0
+    },
+    {
+      "cohort": "baseline",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "baseline",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          765,
+          83,
+          13
+        ],
+        "cleared": [
+          91,
+          22,
+          5
+        ],
+        "bossClearPct": [
+          9.1,
+          2.2,
+          0.5
+        ],
+        "bossConditionalPct": [
+          11.9,
+          26.5,
+          38.5
+        ],
+        "fullRunPct": 0.5,
+        "meanFirstBossLevel": 7.6,
+        "meanFirstBossParty": 2.9,
+        "maxActions": 156
+      },
+      "after": {
+        "cohort": "baseline",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          765,
+          83,
+          13
+        ],
+        "cleared": [
+          91,
+          22,
+          5
+        ],
+        "bossClearPct": [
+          9.1,
+          2.2,
+          0.5
+        ],
+        "bossConditionalPct": [
+          11.9,
+          26.5,
+          38.5
+        ],
+        "fullRunPct": 0.5,
+        "meanFirstBossLevel": 7.6,
+        "meanFirstBossParty": 2.9,
+        "maxActions": 156
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deltaFullClearPercentagePoints": 0.0
+    },
+    {
+      "cohort": "baseline",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "baseline",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          827,
+          756,
+          605
+        ],
+        "cleared": [
+          767,
+          634,
+          491
+        ],
+        "bossClearPct": [
+          76.7,
+          63.4,
+          49.1
+        ],
+        "bossConditionalPct": [
+          92.7,
+          83.9,
+          81.2
+        ],
+        "fullRunPct": 49.1,
+        "meanFirstBossLevel": 7.7,
+        "meanFirstBossParty": 3,
+        "maxActions": 135
+      },
+      "after": {
+        "cohort": "baseline",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          827,
+          756,
+          605
+        ],
+        "cleared": [
+          767,
+          634,
+          491
+        ],
+        "bossClearPct": [
+          76.7,
+          63.4,
+          49.1
+        ],
+        "bossConditionalPct": [
+          92.7,
+          83.9,
+          81.2
+        ],
+        "fullRunPct": 49.1,
+        "meanFirstBossLevel": 7.7,
+        "meanFirstBossParty": 3,
+        "maxActions": 135
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deltaFullClearPercentagePoints": 0.0
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          996,
+          817,
+          92
+        ],
+        "cleared": [
+          846,
+          94,
+          32
+        ],
+        "bossClearPct": [
+          84.6,
+          9.4,
+          3.2
+        ],
+        "bossConditionalPct": [
+          84.9,
+          11.5,
+          34.8
+        ],
+        "fullRunPct": 3.2,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 166
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          996,
+          818,
+          104
+        ],
+        "cleared": [
+          847,
+          106,
+          38
+        ],
+        "bossClearPct": [
+          84.7,
+          10.6,
+          3.8
+        ],
+        "bossConditionalPct": [
+          85,
+          13,
+          36.5
+        ],
+        "fullRunPct": 3.8,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 159
+      },
+      "deltaBossClearPercentagePoints": [
+        0.1,
+        1.2,
+        0.6
+      ],
+      "deltaFullClearPercentagePoints": 0.6
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          995,
+          724,
+          69
+        ],
+        "cleared": [
+          753,
+          70,
+          36
+        ],
+        "bossClearPct": [
+          75.3,
+          7,
+          3.6
+        ],
+        "bossConditionalPct": [
+          75.7,
+          9.7,
+          52.2
+        ],
+        "fullRunPct": 3.6,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 154
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          995,
+          725,
+          92
+        ],
+        "cleared": [
+          753,
+          93,
+          53
+        ],
+        "bossClearPct": [
+          75.3,
+          9.3,
+          5.3
+        ],
+        "bossConditionalPct": [
+          75.7,
+          12.8,
+          57.6
+        ],
+        "fullRunPct": 5.3,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 158
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        2.3,
+        1.7
+      ],
+      "deltaFullClearPercentagePoints": 1.7
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          998,
+          736,
+          161
+        ],
+        "cleared": [
+          767,
+          175,
+          68
+        ],
+        "bossClearPct": [
+          76.7,
+          17.5,
+          6.8
+        ],
+        "bossConditionalPct": [
+          76.9,
+          23.8,
+          42.2
+        ],
+        "fullRunPct": 6.8,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 161
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          998,
+          739,
+          183
+        ],
+        "cleared": [
+          767,
+          191,
+          76
+        ],
+        "bossClearPct": [
+          76.7,
+          19.1,
+          7.6
+        ],
+        "bossConditionalPct": [
+          76.9,
+          25.8,
+          41.5
+        ],
+        "fullRunPct": 7.6,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 162
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.6,
+        0.8
+      ],
+      "deltaFullClearPercentagePoints": 0.8
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          996,
+          713,
+          124
+        ],
+        "cleared": [
+          747,
+          129,
+          29
+        ],
+        "bossClearPct": [
+          74.7,
+          12.9,
+          2.9
+        ],
+        "bossConditionalPct": [
+          75,
+          18.1,
+          23.4
+        ],
+        "fullRunPct": 2.9,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 155
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          996,
+          715,
+          278
+        ],
+        "cleared": [
+          747,
+          278,
+          187
+        ],
+        "bossClearPct": [
+          74.7,
+          27.8,
+          18.7
+        ],
+        "bossConditionalPct": [
+          75,
+          38.9,
+          67.3
+        ],
+        "fullRunPct": 18.7,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 160
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        14.9,
+        15.8
+      ],
+      "deltaFullClearPercentagePoints": 15.8
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          998,
+          759,
+          110
+        ],
+        "cleared": [
+          796,
+          115,
+          41
+        ],
+        "bossClearPct": [
+          79.6,
+          11.5,
+          4.1
+        ],
+        "bossConditionalPct": [
+          79.8,
+          15.2,
+          37.3
+        ],
+        "fullRunPct": 4.1,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 150
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          998,
+          763,
+          125
+        ],
+        "cleared": [
+          797,
+          127,
+          88
+        ],
+        "bossClearPct": [
+          79.7,
+          12.7,
+          8.8
+        ],
+        "bossConditionalPct": [
+          79.9,
+          16.6,
+          70.4
+        ],
+        "fullRunPct": 8.8,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 150
+      },
+      "deltaBossClearPercentagePoints": [
+        0.1,
+        1.2,
+        4.7
+      ],
+      "deltaFullClearPercentagePoints": 4.7
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Paras",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          976,
+          759,
+          104
+        ],
+        "cleared": [
+          789,
+          109,
+          35
+        ],
+        "bossClearPct": [
+          78.9,
+          10.9,
+          3.5
+        ],
+        "bossConditionalPct": [
+          80.8,
+          14.4,
+          33.7
+        ],
+        "fullRunPct": 3.5,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 160
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          976,
+          759,
+          117
+        ],
+        "cleared": [
+          789,
+          120,
+          53
+        ],
+        "bossClearPct": [
+          78.9,
+          12,
+          5.3
+        ],
+        "bossConditionalPct": [
+          80.8,
+          15.8,
+          45.3
+        ],
+        "fullRunPct": 5.3,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 154
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.1,
+        1.8
+      ],
+      "deltaFullClearPercentagePoints": 1.8
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          987,
+          817,
+          91
+        ],
+        "cleared": [
+          853,
+          93,
+          32
+        ],
+        "bossClearPct": [
+          85.3,
+          9.3,
+          3.2
+        ],
+        "bossConditionalPct": [
+          86.4,
+          11.4,
+          35.2
+        ],
+        "fullRunPct": 3.2,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 170
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          987,
+          823,
+          123
+        ],
+        "cleared": [
+          853,
+          125,
+          52
+        ],
+        "bossClearPct": [
+          85.3,
+          12.5,
+          5.2
+        ],
+        "bossConditionalPct": [
+          86.4,
+          15.2,
+          42.3
+        ],
+        "fullRunPct": 5.2,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 166
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        3.2,
+        2.0
+      ],
+      "deltaFullClearPercentagePoints": 2.0
+    },
+    {
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "before": {
+        "cohort": "fresh",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          995,
+          828,
+          176
+        ],
+        "cleared": [
+          856,
+          186,
+          49
+        ],
+        "bossClearPct": [
+          85.6,
+          18.6,
+          4.9
+        ],
+        "bossConditionalPct": [
+          86,
+          22.5,
+          27.8
+        ],
+        "fullRunPct": 4.9,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 194
+      },
+      "after": {
+        "cohort": "fresh",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          995,
+          826,
+          198
+        ],
+        "cleared": [
+          856,
+          205,
+          56
+        ],
+        "bossClearPct": [
+          85.6,
+          20.5,
+          5.6
+        ],
+        "bossConditionalPct": [
+          86,
+          24.8,
+          28.3
+        ],
+        "fullRunPct": 5.6,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 194
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.9,
+        0.7
+      ],
+      "deltaFullClearPercentagePoints": 0.7
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          998,
+          924,
+          185
+        ],
+        "cleared": [
+          936,
+          189,
+          74
+        ],
+        "bossClearPct": [
+          93.6,
+          18.9,
+          7.4
+        ],
+        "bossConditionalPct": [
+          93.8,
+          20.5,
+          40
+        ],
+        "fullRunPct": 7.4,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 163
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          998,
+          924,
+          201
+        ],
+        "cleared": [
+          936,
+          202,
+          89
+        ],
+        "bossClearPct": [
+          93.6,
+          20.2,
+          8.9
+        ],
+        "bossConditionalPct": [
+          93.8,
+          21.9,
+          44.3
+        ],
+        "fullRunPct": 8.9,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 163
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.3,
+        1.5
+      ],
+      "deltaFullClearPercentagePoints": 1.5
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          998,
+          912,
+          157
+        ],
+        "cleared": [
+          932,
+          159,
+          80
+        ],
+        "bossClearPct": [
+          93.2,
+          15.9,
+          8
+        ],
+        "bossConditionalPct": [
+          93.4,
+          17.4,
+          51
+        ],
+        "fullRunPct": 8,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 163
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          998,
+          913,
+          171
+        ],
+        "cleared": [
+          932,
+          174,
+          99
+        ],
+        "bossClearPct": [
+          93.2,
+          17.4,
+          9.9
+        ],
+        "bossConditionalPct": [
+          93.4,
+          19.1,
+          57.9
+        ],
+        "fullRunPct": 9.9,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 163
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.5,
+        1.9
+      ],
+      "deltaFullClearPercentagePoints": 1.9
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          870,
+          387
+        ],
+        "cleared": [
+          891,
+          398,
+          181
+        ],
+        "bossClearPct": [
+          89.1,
+          39.8,
+          18.1
+        ],
+        "bossConditionalPct": [
+          89.1,
+          45.7,
+          46.8
+        ],
+        "fullRunPct": 18.1,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 185
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          869,
+          392
+        ],
+        "cleared": [
+          891,
+          405,
+          199
+        ],
+        "bossClearPct": [
+          89.1,
+          40.5,
+          19.9
+        ],
+        "bossConditionalPct": [
+          89.1,
+          46.6,
+          50.8
+        ],
+        "fullRunPct": 19.9,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 185
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        0.7,
+        1.8
+      ],
+      "deltaFullClearPercentagePoints": 1.8
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          998,
+          913,
+          187
+        ],
+        "cleared": [
+          939,
+          194,
+          61
+        ],
+        "bossClearPct": [
+          93.9,
+          19.4,
+          6.1
+        ],
+        "bossConditionalPct": [
+          94.1,
+          21.2,
+          32.6
+        ],
+        "fullRunPct": 6.1,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 168
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          998,
+          914,
+          374
+        ],
+        "cleared": [
+          939,
+          377,
+          248
+        ],
+        "bossClearPct": [
+          93.9,
+          37.7,
+          24.8
+        ],
+        "bossConditionalPct": [
+          94.1,
+          41.2,
+          66.3
+        ],
+        "fullRunPct": 24.8,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 183
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        18.3,
+        18.7
+      ],
+      "deltaFullClearPercentagePoints": 18.7
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          998,
+          920,
+          129
+        ],
+        "cleared": [
+          956,
+          132,
+          71
+        ],
+        "bossClearPct": [
+          95.6,
+          13.2,
+          7.1
+        ],
+        "bossConditionalPct": [
+          95.8,
+          14.3,
+          55
+        ],
+        "fullRunPct": 7.1,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 161
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          998,
+          919,
+          165
+        ],
+        "cleared": [
+          956,
+          167,
+          109
+        ],
+        "bossClearPct": [
+          95.6,
+          16.7,
+          10.9
+        ],
+        "bossConditionalPct": [
+          95.8,
+          18.2,
+          66.1
+        ],
+        "fullRunPct": 10.9,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 165
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        3.5,
+        3.8
+      ],
+      "deltaFullClearPercentagePoints": 3.8
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          985,
+          887,
+          144
+        ],
+        "cleared": [
+          920,
+          147,
+          59
+        ],
+        "bossClearPct": [
+          92,
+          14.7,
+          5.9
+        ],
+        "bossConditionalPct": [
+          93.4,
+          16.6,
+          41
+        ],
+        "fullRunPct": 5.9,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 163
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          985,
+          890,
+          174
+        ],
+        "cleared": [
+          920,
+          179,
+          70
+        ],
+        "bossClearPct": [
+          92,
+          17.9,
+          7
+        ],
+        "bossConditionalPct": [
+          93.4,
+          20.1,
+          40.2
+        ],
+        "fullRunPct": 7,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 166
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        3.2,
+        1.1
+      ],
+      "deltaFullClearPercentagePoints": 1.1
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          993,
+          656,
+          112
+        ],
+        "cleared": [
+          677,
+          115,
+          41
+        ],
+        "bossClearPct": [
+          67.7,
+          11.5,
+          4.1
+        ],
+        "bossConditionalPct": [
+          68.2,
+          17.5,
+          36.6
+        ],
+        "fullRunPct": 4.1,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 167
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          993,
+          659,
+          144
+        ],
+        "cleared": [
+          677,
+          147,
+          65
+        ],
+        "bossClearPct": [
+          67.7,
+          14.7,
+          6.5
+        ],
+        "bossConditionalPct": [
+          68.2,
+          22.3,
+          45.1
+        ],
+        "fullRunPct": 6.5,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 167
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        3.2,
+        2.4
+      ],
+      "deltaFullClearPercentagePoints": 2.4
+    },
+    {
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "before": {
+        "cohort": "upgraded",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          939,
+          365
+        ],
+        "cleared": [
+          951,
+          383,
+          123
+        ],
+        "bossClearPct": [
+          95.1,
+          38.3,
+          12.3
+        ],
+        "bossConditionalPct": [
+          95.1,
+          40.8,
+          33.7
+        ],
+        "fullRunPct": 12.3,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 191
+      },
+      "after": {
+        "cohort": "upgraded",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          939,
+          388
+        ],
+        "cleared": [
+          951,
+          401,
+          143
+        ],
+        "bossClearPct": [
+          95.1,
+          40.1,
+          14.3
+        ],
+        "bossConditionalPct": [
+          95.1,
+          42.7,
+          36.9
+        ],
+        "fullRunPct": 14.3,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 186
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.8,
+        2.0
+      ],
+      "deltaFullClearPercentagePoints": 2.0
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          999,
+          927,
+          354
+        ],
+        "cleared": [
+          935,
+          356,
+          201
+        ],
+        "bossClearPct": [
+          93.5,
+          35.6,
+          20.1
+        ],
+        "bossConditionalPct": [
+          93.6,
+          38.4,
+          56.8
+        ],
+        "fullRunPct": 20.1,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 156
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          999,
+          929,
+          369
+        ],
+        "cleared": [
+          935,
+          370,
+          219
+        ],
+        "bossClearPct": [
+          93.5,
+          37,
+          21.9
+        ],
+        "bossConditionalPct": [
+          93.6,
+          39.8,
+          59.3
+        ],
+        "fullRunPct": 21.9,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.3,
+        "maxActions": 156
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        1.4,
+        1.8
+      ],
+      "deltaFullClearPercentagePoints": 1.8
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          999,
+          993,
+          263
+        ],
+        "cleared": [
+          998,
+          264,
+          206
+        ],
+        "bossClearPct": [
+          99.8,
+          26.4,
+          20.6
+        ],
+        "bossConditionalPct": [
+          99.9,
+          26.6,
+          78.3
+        ],
+        "fullRunPct": 20.6,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 155
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          999,
+          993,
+          285
+        ],
+        "cleared": [
+          998,
+          286,
+          230
+        ],
+        "bossClearPct": [
+          99.8,
+          28.6,
+          23
+        ],
+        "bossConditionalPct": [
+          99.9,
+          28.8,
+          80.7
+        ],
+        "fullRunPct": 23,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 154
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        2.2,
+        2.4
+      ],
+      "deltaFullClearPercentagePoints": 2.4
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          901,
+          732
+        ],
+        "cleared": [
+          904,
+          737,
+          638
+        ],
+        "bossClearPct": [
+          90.4,
+          73.7,
+          63.8
+        ],
+        "bossConditionalPct": [
+          90.4,
+          81.8,
+          87.2
+        ],
+        "fullRunPct": 63.8,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 158
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          901,
+          735
+        ],
+        "cleared": [
+          904,
+          740,
+          642
+        ],
+        "bossClearPct": [
+          90.4,
+          74,
+          64.2
+        ],
+        "bossConditionalPct": [
+          90.4,
+          82.1,
+          87.3
+        ],
+        "fullRunPct": 64.2,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 159
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        0.3,
+        0.4
+      ],
+      "deltaFullClearPercentagePoints": 0.4
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          989,
+          476
+        ],
+        "cleared": [
+          998,
+          487,
+          220
+        ],
+        "bossClearPct": [
+          99.8,
+          48.7,
+          22
+        ],
+        "bossConditionalPct": [
+          99.8,
+          49.2,
+          46.2
+        ],
+        "fullRunPct": 22,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 178
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          990,
+          783
+        ],
+        "cleared": [
+          998,
+          788,
+          752
+        ],
+        "bossClearPct": [
+          99.8,
+          78.8,
+          75.2
+        ],
+        "bossConditionalPct": [
+          99.8,
+          79.6,
+          96
+        ],
+        "fullRunPct": 75.2,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 131
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        30.1,
+        53.2
+      ],
+      "deltaFullClearPercentagePoints": 53.2
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          999,
+          981,
+          269
+        ],
+        "cleared": [
+          998,
+          271,
+          211
+        ],
+        "bossClearPct": [
+          99.8,
+          27.1,
+          21.1
+        ],
+        "bossConditionalPct": [
+          99.9,
+          27.6,
+          78.4
+        ],
+        "fullRunPct": 21.1,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 158
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          999,
+          982,
+          375
+        ],
+        "cleared": [
+          997,
+          377,
+          352
+        ],
+        "bossClearPct": [
+          99.7,
+          37.7,
+          35.2
+        ],
+        "bossConditionalPct": [
+          99.8,
+          38.4,
+          93.9
+        ],
+        "fullRunPct": 35.2,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 146
+      },
+      "deltaBossClearPercentagePoints": [
+        -0.1,
+        10.6,
+        14.1
+      ],
+      "deltaFullClearPercentagePoints": 14.1
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          992,
+          974,
+          222
+        ],
+        "cleared": [
+          988,
+          225,
+          97
+        ],
+        "bossClearPct": [
+          98.8,
+          22.5,
+          9.7
+        ],
+        "bossConditionalPct": [
+          99.6,
+          23.1,
+          43.7
+        ],
+        "fullRunPct": 9.7,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 194
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          992,
+          975,
+          254
+        ],
+        "cleared": [
+          988,
+          258,
+          115
+        ],
+        "bossClearPct": [
+          98.8,
+          25.8,
+          11.5
+        ],
+        "bossConditionalPct": [
+          99.6,
+          26.5,
+          45.3
+        ],
+        "fullRunPct": 11.5,
+        "meanFirstBossLevel": 7.4,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 154
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        3.3,
+        1.8
+      ],
+      "deltaFullClearPercentagePoints": 1.8
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          999,
+          965,
+          263
+        ],
+        "cleared": [
+          971,
+          269,
+          116
+        ],
+        "bossClearPct": [
+          97.1,
+          26.9,
+          11.6
+        ],
+        "bossConditionalPct": [
+          97.2,
+          27.9,
+          44.1
+        ],
+        "fullRunPct": 11.6,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 160
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          999,
+          965,
+          384
+        ],
+        "cleared": [
+          971,
+          384,
+          227
+        ],
+        "bossClearPct": [
+          97.1,
+          38.4,
+          22.7
+        ],
+        "bossConditionalPct": [
+          97.2,
+          39.8,
+          59.1
+        ],
+        "fullRunPct": 22.7,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 184
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        11.5,
+        11.1
+      ],
+      "deltaFullClearPercentagePoints": 11.1
+    },
+    {
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "before": {
+        "cohort": "collected-shiny",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          950,
+          720
+        ],
+        "cleared": [
+          953,
+          729,
+          515
+        ],
+        "bossClearPct": [
+          95.3,
+          72.9,
+          51.5
+        ],
+        "bossConditionalPct": [
+          95.3,
+          76.7,
+          71.5
+        ],
+        "fullRunPct": 51.5,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 173
+      },
+      "after": {
+        "cohort": "collected-shiny",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          951,
+          722
+        ],
+        "cleared": [
+          953,
+          728,
+          500
+        ],
+        "bossClearPct": [
+          95.3,
+          72.8,
+          50
+        ],
+        "bossConditionalPct": [
+          95.3,
+          76.6,
+          69.3
+        ],
+        "fullRunPct": 50,
+        "meanFirstBossLevel": 7.5,
+        "meanFirstBossParty": 3.4,
+        "maxActions": 166
+      },
+      "deltaBossClearPercentagePoints": [
+        0.0,
+        -0.1,
+        -1.5
+      ],
+      "deltaFullClearPercentagePoints": -1.5
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          430
+        ],
+        "cleared": [
+          1000,
+          433,
+          282
+        ],
+        "bossClearPct": [
+          100,
+          43.3,
+          28.2
+        ],
+        "bossConditionalPct": [
+          100,
+          43.3,
+          65.6
+        ],
+        "fullRunPct": 28.2,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 160
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          463
+        ],
+        "cleared": [
+          1000,
+          464,
+          314
+        ],
+        "bossClearPct": [
+          100,
+          46.4,
+          31.4
+        ],
+        "bossConditionalPct": [
+          100,
+          46.4,
+          67.8
+        ],
+        "fullRunPct": 31.4,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 160
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        3.1,
+        3.2
+      ],
+      "deltaFullClearPercentagePoints": 3.2
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          500
+        ],
+        "cleared": [
+          1000,
+          500,
+          282
+        ],
+        "bossClearPct": [
+          100,
+          50,
+          28.2
+        ],
+        "bossConditionalPct": [
+          100,
+          50,
+          56.4
+        ],
+        "fullRunPct": 28.2,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 171
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          511
+        ],
+        "cleared": [
+          1000,
+          512,
+          302
+        ],
+        "bossClearPct": [
+          100,
+          51.2,
+          30.2
+        ],
+        "bossConditionalPct": [
+          100,
+          51.2,
+          59.1
+        ],
+        "fullRunPct": 30.2,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 166
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        1.2,
+        2.0
+      ],
+      "deltaFullClearPercentagePoints": 2.0
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          347
+        ],
+        "cleared": [
+          1000,
+          349,
+          304
+        ],
+        "bossClearPct": [
+          100,
+          34.9,
+          30.4
+        ],
+        "bossConditionalPct": [
+          100,
+          34.9,
+          87.6
+        ],
+        "fullRunPct": 30.4,
+        "meanFirstBossLevel": 8.5,
+        "meanFirstBossParty": 5.4,
+        "maxActions": 166
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          356
+        ],
+        "cleared": [
+          1000,
+          358,
+          314
+        ],
+        "bossClearPct": [
+          100,
+          35.8,
+          31.4
+        ],
+        "bossConditionalPct": [
+          100,
+          35.8,
+          88.2
+        ],
+        "fullRunPct": 31.4,
+        "meanFirstBossLevel": 8.5,
+        "meanFirstBossParty": 5.4,
+        "maxActions": 160
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.9,
+        1.0
+      ],
+      "deltaFullClearPercentagePoints": 1.0
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Zubat",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          997,
+          117
+        ],
+        "cleared": [
+          1000,
+          118,
+          47
+        ],
+        "bossClearPct": [
+          100,
+          11.8,
+          4.7
+        ],
+        "bossConditionalPct": [
+          100,
+          11.8,
+          40.2
+        ],
+        "fullRunPct": 4.7,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.4,
+        "maxActions": 149
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          997,
+          283
+        ],
+        "cleared": [
+          1000,
+          283,
+          167
+        ],
+        "bossClearPct": [
+          100,
+          28.3,
+          16.7
+        ],
+        "bossConditionalPct": [
+          100,
+          28.4,
+          59
+        ],
+        "fullRunPct": 16.7,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.4,
+        "maxActions": 154
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        16.5,
+        12.0
+      ],
+      "deltaFullClearPercentagePoints": 12.0
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Geodude",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          1000,
+          998,
+          134
+        ],
+        "cleared": [
+          1000,
+          134,
+          74
+        ],
+        "bossClearPct": [
+          100,
+          13.4,
+          7.4
+        ],
+        "bossConditionalPct": [
+          100,
+          13.4,
+          55.2
+        ],
+        "fullRunPct": 7.4,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 167
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          1000,
+          997,
+          228
+        ],
+        "cleared": [
+          1000,
+          228,
+          196
+        ],
+        "bossClearPct": [
+          100,
+          22.8,
+          19.6
+        ],
+        "bossConditionalPct": [
+          100,
+          22.9,
+          86
+        ],
+        "fullRunPct": 19.6,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 142
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        9.4,
+        12.2
+      ],
+      "deltaFullClearPercentagePoints": 12.2
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Paras",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          1000,
+          994,
+          143
+        ],
+        "cleared": [
+          1000,
+          143,
+          65
+        ],
+        "bossClearPct": [
+          100,
+          14.3,
+          6.5
+        ],
+        "bossConditionalPct": [
+          100,
+          14.4,
+          45.5
+        ],
+        "fullRunPct": 6.5,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 155
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          1000,
+          994,
+          186
+        ],
+        "cleared": [
+          1000,
+          189,
+          101
+        ],
+        "bossClearPct": [
+          100,
+          18.9,
+          10.1
+        ],
+        "bossConditionalPct": [
+          100,
+          19,
+          54.3
+        ],
+        "fullRunPct": 10.1,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 154
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        4.6,
+        3.6
+      ],
+      "deltaFullClearPercentagePoints": 3.6
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Bellsprout",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          1000,
+          997,
+          134
+        ],
+        "cleared": [
+          1000,
+          134,
+          59
+        ],
+        "bossClearPct": [
+          100,
+          13.4,
+          5.9
+        ],
+        "bossConditionalPct": [
+          100,
+          13.4,
+          44
+        ],
+        "fullRunPct": 5.9,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 158
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          1000,
+          999,
+          203
+        ],
+        "cleared": [
+          1000,
+          207,
+          128
+        ],
+        "bossClearPct": [
+          100,
+          20.7,
+          12.8
+        ],
+        "bossConditionalPct": [
+          100,
+          20.7,
+          63.1
+        ],
+        "fullRunPct": 12.8,
+        "meanFirstBossLevel": 8.4,
+        "meanFirstBossParty": 5.3,
+        "maxActions": 167
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        7.3,
+        6.9
+      ],
+      "deltaFullClearPercentagePoints": 6.9
+    },
+    {
+      "cohort": "collection-3",
+      "starter": "Poliwhirl",
+      "before": {
+        "cohort": "collection-3",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          228
+        ],
+        "cleared": [
+          1000,
+          229,
+          145
+        ],
+        "bossClearPct": [
+          100,
+          22.9,
+          14.5
+        ],
+        "bossConditionalPct": [
+          100,
+          22.9,
+          63.6
+        ],
+        "fullRunPct": 14.5,
+        "meanFirstBossLevel": 8.5,
+        "meanFirstBossParty": 5.4,
+        "maxActions": 176
+      },
+      "after": {
+        "cohort": "collection-3",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          247
+        ],
+        "cleared": [
+          1000,
+          248,
+          160
+        ],
+        "bossClearPct": [
+          100,
+          24.8,
+          16
+        ],
+        "bossConditionalPct": [
+          100,
+          24.8,
+          64.8
+        ],
+        "fullRunPct": 16,
+        "meanFirstBossLevel": 8.5,
+        "meanFirstBossParty": 5.4,
+        "maxActions": 176
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        1.9,
+        1.5
+      ],
+      "deltaFullClearPercentagePoints": 1.5
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          656
+        ],
+        "cleared": [
+          1000,
+          656,
+          371
+        ],
+        "bossClearPct": [
+          100,
+          65.6,
+          37.1
+        ],
+        "bossConditionalPct": [
+          100,
+          65.6,
+          56.6
+        ],
+        "fullRunPct": 37.1,
+        "meanFirstBossLevel": 8.8,
+        "meanFirstBossParty": 6,
+        "maxActions": 179
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          799
+        ],
+        "cleared": [
+          1000,
+          799,
+          577
+        ],
+        "bossClearPct": [
+          100,
+          79.9,
+          57.7
+        ],
+        "bossConditionalPct": [
+          100,
+          79.9,
+          72.2
+        ],
+        "fullRunPct": 57.7,
+        "meanFirstBossLevel": 8.8,
+        "meanFirstBossParty": 6,
+        "maxActions": 185
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        14.3,
+        20.6
+      ],
+      "deltaFullClearPercentagePoints": 20.6
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          690
+        ],
+        "cleared": [
+          1000,
+          690,
+          307
+        ],
+        "bossClearPct": [
+          100,
+          69,
+          30.7
+        ],
+        "bossConditionalPct": [
+          100,
+          69,
+          44.5
+        ],
+        "fullRunPct": 30.7,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 166
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          807
+        ],
+        "cleared": [
+          1000,
+          807,
+          536
+        ],
+        "bossClearPct": [
+          100,
+          80.7,
+          53.6
+        ],
+        "bossConditionalPct": [
+          100,
+          80.7,
+          66.4
+        ],
+        "fullRunPct": 53.6,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 167
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        11.7,
+        22.9
+      ],
+      "deltaFullClearPercentagePoints": 22.9
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          570
+        ],
+        "cleared": [
+          1000,
+          570,
+          437
+        ],
+        "bossClearPct": [
+          100,
+          57,
+          43.7
+        ],
+        "bossConditionalPct": [
+          100,
+          57,
+          76.7
+        ],
+        "fullRunPct": 43.7,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 169
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          713
+        ],
+        "cleared": [
+          1000,
+          713,
+          584
+        ],
+        "bossClearPct": [
+          100,
+          71.3,
+          58.4
+        ],
+        "bossConditionalPct": [
+          100,
+          71.3,
+          81.9
+        ],
+        "fullRunPct": 58.4,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 171
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        14.3,
+        14.7
+      ],
+      "deltaFullClearPercentagePoints": 14.7
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          571
+        ],
+        "cleared": [
+          1000,
+          574,
+          279
+        ],
+        "bossClearPct": [
+          100,
+          57.4,
+          27.9
+        ],
+        "bossConditionalPct": [
+          100,
+          57.4,
+          48.9
+        ],
+        "fullRunPct": 27.9,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 167
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          563
+        ],
+        "cleared": [
+          1000,
+          563,
+          365
+        ],
+        "bossClearPct": [
+          100,
+          56.3,
+          36.5
+        ],
+        "bossConditionalPct": [
+          100,
+          56.3,
+          64.8
+        ],
+        "fullRunPct": 36.5,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 173
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        -1.1,
+        8.6
+      ],
+      "deltaFullClearPercentagePoints": 8.6
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          667
+        ],
+        "cleared": [
+          1000,
+          667,
+          345
+        ],
+        "bossClearPct": [
+          100,
+          66.7,
+          34.5
+        ],
+        "bossConditionalPct": [
+          100,
+          66.7,
+          51.7
+        ],
+        "fullRunPct": 34.5,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 163
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          835
+        ],
+        "cleared": [
+          1000,
+          835,
+          689
+        ],
+        "bossClearPct": [
+          100,
+          83.5,
+          68.9
+        ],
+        "bossConditionalPct": [
+          100,
+          83.5,
+          82.5
+        ],
+        "fullRunPct": 68.9,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 163
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        16.8,
+        34.4
+      ],
+      "deltaFullClearPercentagePoints": 34.4
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          564
+        ],
+        "cleared": [
+          1000,
+          565,
+          301
+        ],
+        "bossClearPct": [
+          100,
+          56.5,
+          30.1
+        ],
+        "bossConditionalPct": [
+          100,
+          56.5,
+          53.4
+        ],
+        "fullRunPct": 30.1,
+        "meanFirstBossLevel": 8.8,
+        "meanFirstBossParty": 6,
+        "maxActions": 171
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          678
+        ],
+        "cleared": [
+          1000,
+          680,
+          448
+        ],
+        "bossClearPct": [
+          100,
+          68,
+          44.8
+        ],
+        "bossConditionalPct": [
+          100,
+          68,
+          66.1
+        ],
+        "fullRunPct": 44.8,
+        "meanFirstBossLevel": 8.8,
+        "meanFirstBossParty": 6,
+        "maxActions": 172
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        11.5,
+        14.7
+      ],
+      "deltaFullClearPercentagePoints": 14.7
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          518
+        ],
+        "cleared": [
+          1000,
+          519,
+          263
+        ],
+        "bossClearPct": [
+          100,
+          51.9,
+          26.3
+        ],
+        "bossConditionalPct": [
+          100,
+          51.9,
+          50.8
+        ],
+        "fullRunPct": 26.3,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 183
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          595
+        ],
+        "cleared": [
+          1000,
+          595,
+          416
+        ],
+        "bossClearPct": [
+          100,
+          59.5,
+          41.6
+        ],
+        "bossConditionalPct": [
+          100,
+          59.5,
+          69.9
+        ],
+        "fullRunPct": 41.6,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 178
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        7.6,
+        15.3
+      ],
+      "deltaFullClearPercentagePoints": 15.3
+    },
+    {
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "before": {
+        "cohort": "collection-6",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          586
+        ],
+        "cleared": [
+          1000,
+          588,
+          312
+        ],
+        "bossClearPct": [
+          100,
+          58.8,
+          31.2
+        ],
+        "bossConditionalPct": [
+          100,
+          58.8,
+          53.2
+        ],
+        "fullRunPct": 31.2,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 199
+      },
+      "after": {
+        "cohort": "collection-6",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          601
+        ],
+        "cleared": [
+          1000,
+          601,
+          404
+        ],
+        "bossClearPct": [
+          100,
+          60.1,
+          40.4
+        ],
+        "bossConditionalPct": [
+          100,
+          60.1,
+          67.2
+        ],
+        "fullRunPct": 40.4,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 193
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        1.3,
+        9.2
+      ],
+      "deltaFullClearPercentagePoints": 9.2
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Bulbasaur",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          989
+        ],
+        "cleared": [
+          1000,
+          989,
+          921
+        ],
+        "bossClearPct": [
+          100,
+          98.9,
+          92.1
+        ],
+        "bossConditionalPct": [
+          100,
+          98.9,
+          93.1
+        ],
+        "fullRunPct": 92.1,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 154
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Bulbasaur",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          991
+        ],
+        "cleared": [
+          1000,
+          991,
+          968
+        ],
+        "bossClearPct": [
+          100,
+          99.1,
+          96.8
+        ],
+        "bossConditionalPct": [
+          100,
+          99.1,
+          97.7
+        ],
+        "fullRunPct": 96.8,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 155
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.2,
+        4.7
+      ],
+      "deltaFullClearPercentagePoints": 4.7
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Charmander",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          990
+        ],
+        "cleared": [
+          1000,
+          990,
+          907
+        ],
+        "bossClearPct": [
+          100,
+          99,
+          90.7
+        ],
+        "bossConditionalPct": [
+          100,
+          99,
+          91.6
+        ],
+        "fullRunPct": 90.7,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 143
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Charmander",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          991
+        ],
+        "cleared": [
+          1000,
+          991,
+          971
+        ],
+        "bossClearPct": [
+          100,
+          99.1,
+          97.1
+        ],
+        "bossConditionalPct": [
+          100,
+          99.1,
+          98
+        ],
+        "fullRunPct": 97.1,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 143
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.1,
+        6.4
+      ],
+      "deltaFullClearPercentagePoints": 6.4
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Squirtle",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          974
+        ],
+        "cleared": [
+          1000,
+          974,
+          943
+        ],
+        "bossClearPct": [
+          100,
+          97.4,
+          94.3
+        ],
+        "bossConditionalPct": [
+          100,
+          97.4,
+          96.8
+        ],
+        "fullRunPct": 94.3,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 152
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Squirtle",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          978
+        ],
+        "cleared": [
+          1000,
+          978,
+          965
+        ],
+        "bossClearPct": [
+          100,
+          97.8,
+          96.5
+        ],
+        "bossConditionalPct": [
+          100,
+          97.8,
+          98.7
+        ],
+        "fullRunPct": 96.5,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 158
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.4,
+        2.2
+      ],
+      "deltaFullClearPercentagePoints": 2.2
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Zubat",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          962
+        ],
+        "cleared": [
+          1000,
+          962,
+          866
+        ],
+        "bossClearPct": [
+          100,
+          96.2,
+          86.6
+        ],
+        "bossConditionalPct": [
+          100,
+          96.2,
+          90
+        ],
+        "fullRunPct": 86.6,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 167
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Zubat",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          958
+        ],
+        "cleared": [
+          1000,
+          958,
+          926
+        ],
+        "bossClearPct": [
+          100,
+          95.8,
+          92.6
+        ],
+        "bossConditionalPct": [
+          100,
+          95.8,
+          96.7
+        ],
+        "fullRunPct": 92.6,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 156
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        -0.4,
+        6.0
+      ],
+      "deltaFullClearPercentagePoints": 6.0
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Geodude",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          980
+        ],
+        "cleared": [
+          1000,
+          980,
+          922
+        ],
+        "bossClearPct": [
+          100,
+          98,
+          92.2
+        ],
+        "bossConditionalPct": [
+          100,
+          98,
+          94.1
+        ],
+        "fullRunPct": 92.2,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 149
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Geodude",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          986
+        ],
+        "cleared": [
+          1000,
+          986,
+          982
+        ],
+        "bossClearPct": [
+          100,
+          98.6,
+          98.2
+        ],
+        "bossConditionalPct": [
+          100,
+          98.6,
+          99.6
+        ],
+        "fullRunPct": 98.2,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 149
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.6,
+        6.0
+      ],
+      "deltaFullClearPercentagePoints": 6.0
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Paras",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          965
+        ],
+        "cleared": [
+          1000,
+          965,
+          868
+        ],
+        "bossClearPct": [
+          100,
+          96.5,
+          86.8
+        ],
+        "bossConditionalPct": [
+          100,
+          96.5,
+          89.9
+        ],
+        "fullRunPct": 86.8,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 164
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Paras",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          970
+        ],
+        "cleared": [
+          1000,
+          970,
+          933
+        ],
+        "bossClearPct": [
+          100,
+          97,
+          93.3
+        ],
+        "bossConditionalPct": [
+          100,
+          97,
+          96.2
+        ],
+        "fullRunPct": 93.3,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 163
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.5,
+        6.5
+      ],
+      "deltaFullClearPercentagePoints": 6.5
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Bellsprout",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          970
+        ],
+        "cleared": [
+          1000,
+          970,
+          861
+        ],
+        "bossClearPct": [
+          100,
+          97,
+          86.1
+        ],
+        "bossConditionalPct": [
+          100,
+          97,
+          88.8
+        ],
+        "fullRunPct": 86.1,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 181
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Bellsprout",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          976
+        ],
+        "cleared": [
+          1000,
+          976,
+          942
+        ],
+        "bossClearPct": [
+          100,
+          97.6,
+          94.2
+        ],
+        "bossConditionalPct": [
+          100,
+          97.6,
+          96.5
+        ],
+        "fullRunPct": 94.2,
+        "meanFirstBossLevel": 8.9,
+        "meanFirstBossParty": 6,
+        "maxActions": 166
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.6,
+        8.1
+      ],
+      "deltaFullClearPercentagePoints": 8.1
+    },
+    {
+      "cohort": "collection-6-shiny",
+      "starter": "Poliwhirl",
+      "before": {
+        "cohort": "collection-6-shiny",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          957
+        ],
+        "cleared": [
+          1000,
+          957,
+          891
+        ],
+        "bossClearPct": [
+          100,
+          95.7,
+          89.1
+        ],
+        "bossConditionalPct": [
+          100,
+          95.7,
+          93.1
+        ],
+        "fullRunPct": 89.1,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 185
+      },
+      "after": {
+        "cohort": "collection-6-shiny",
+        "starter": "Poliwhirl",
+        "runs": 1000,
+        "reached": [
+          1000,
+          1000,
+          959
+        ],
+        "cleared": [
+          1000,
+          959,
+          925
+        ],
+        "bossClearPct": [
+          100,
+          95.9,
+          92.5
+        ],
+        "bossConditionalPct": [
+          100,
+          95.9,
+          96.5
+        ],
+        "fullRunPct": 92.5,
+        "meanFirstBossLevel": 9,
+        "meanFirstBossParty": 6,
+        "maxActions": 179
+      },
+      "deltaBossClearPercentagePoints": [
+        0,
+        0.2,
+        3.4
+      ],
+      "deltaFullClearPercentagePoints": 3.4
+    }
+  ]
+}

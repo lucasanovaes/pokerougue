@@ -1,0 +1,41 @@
+import {describe,it,expect} from 'vitest';
+import {createElement} from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {EVOLUTIONS,FIRST_PARTNERS,BASE_FORMS} from './config';
+import {newProfile,claimFirstPartner,syncProfile,loadProfile,type Specimen} from './profile';
+import {newGame,startRun,enterRoom,createPokemon,SPECIES,BIOMES} from './game';
+import {filterCollection,teamCoverage,collectionProgress,captureHighlights,ivQuality,habitat,COLLECTION_MILESTONES} from './collection';
+import FieldGuide from '../FieldGuide';
+import CollectionBrowser from '../CollectionBrowser';
+import CaptureReveal from '../CaptureReveal';
+import WorldScene from '../WorldScene';
+function specimen(id:string,speciesId:number,iv=18,shiny=false):Specimen{return {id,speciesId,shiny,ivs:{hp:iv,attack:iv,defense:iv,spAttack:iv,spDefense:iv,speed:iv}};}
+
+describe('field guide persistence and secrecy',()=>{
+  it('banks only visited encounters as seen, without granting ownership or research',()=>{const p=claimFirstPartner(newProfile(),1),s=newGame(undefined,'field-guide');startRun(s,1);enterRoom(s,'0-0');const enemy=s.enemy!.speciesId,banked=syncProfile(p,s);expect(banked.seenSpecies).toContain(enemy);expect(banked.research).toBe(0);expect(banked.collection).toEqual(p.collection);expect(banked.seenSpecies.every(id=>id===1||id===enemy)).toBe(true);expect(syncProfile(banked,s)).toEqual(banked);});
+  it('keeps discoveries across runs and restores older profiles without losing catches',()=>{const original=claimFirstPartner(newProfile(),4);const old={...original,seenSpecies:undefined};expect(loadProfile(old)!.seenSpecies).toEqual([4]);const s=newGame();startRun(s,4);s.seen=[25];const banked=syncProfile(original,s);expect(syncProfile(banked,newGame()).seenSpecies).toContain(25);});
+  it('rejects malformed seen history and deduplicates valid entries',()=>{const p=newProfile();expect(loadProfile({...p,seenSpecies:['oops']})).toBeNull();expect(loadProfile({...p,seenSpecies:[99999]})).toBeNull();expect(loadProfile({...p,seenSpecies:[1,1]})).toMatchObject({seenSpecies:[1]});});
+  it('derives non-farmable cosmetic milestones from unique species',()=>{const p=claimFirstPartner(newProfile(),1);p.collection.push(specimen('duplicate',1),specimen('b',4),specimen('c',7));const progress=collectionProgress(p);expect(progress.owned.size).toBe(3);expect(progress.badges[0].title).toBe('Trail Scout');expect(progress.next!.count).toBe(8);expect(p.research).toBe(0);expect(COLLECTION_MILESTONES.at(-1)!.count).toBe(SPECIES.length);});
+  it('hides names and sprites for unseen species while showing known catches',()=>{const p=claimFirstPartner(newProfile(),1);const html=renderToStaticMarkup(createElement(FieldGuide,{profile:p}));expect(html).toContain('Bulbasaur');expect(html).toContain('Unknown entry 149');expect(html).not.toContain('Dragonite');expect(html).not.toContain('/149.png');});
+  it('registers an evolution without inventing a new owned specimen or extra research',()=>{const p=claimFirstPartner(newProfile(),1),s=newGame();startRun(s,1);s.party[0].speciesId=2;const next=syncProfile(p,s);expect(collectionProgress(next).owned.has(2)).toBe(true);expect(next.collection).toHaveLength(1);expect(next.collection[0].speciesId).toBe(1);expect(next.research).toBe(0);expect(syncProfile(next,s)).toEqual(next);});
+  it('can acquire every field guide entry regardless of the one-time first partner',()=>{for(const starter of FIRST_PARTNERS){const sources=new Set<number>([starter,...BIOMES.flatMap(b=>b.pool)]);let previous=-1;while(previous!==sources.size){previous=sources.size;for(const id of [...sources]){if(BASE_FORMS[id])sources.add(BASE_FORMS[id]);if(EVOLUTIONS[id])sources.add(EVOLUTIONS[id][1]);}}expect(SPECIES.filter(p=>!sources.has(p.id)).map(p=>p.name)).toEqual([]);}});
+  it('uses static habitat information rather than future room state',()=>{expect(habitat(74)).toContain('Viridian Wilds');expect(habitat(61)).toContain('Cerulean Coast');expect(habitat(99999)).toEqual([]);});
+});
+
+describe('collection comparison and team strategy',()=>{
+  const owned=[specimen('a',1,8),specimen('b',4,31,true),specimen('c',7,20),specimen('d',149,18)];
+  it('searches case-insensitively by caught species or starting form',()=>{expect(filterCollection(owned,' CHAR ','all',false,'recent').map(p=>p.id)).toEqual(['b']);expect(filterCollection(owned,'dratini','all',false,'recent').map(p=>p.id)).toEqual(['d']);});
+  it('combines type and shiny filters',()=>{expect(filterCollection(owned,'','fire',true,'recent').map(p=>p.id)).toEqual(['b']);expect(filterCollection(owned,'','water',true,'recent')).toEqual([]);});
+  it('sorts independent specimens by IV without mutating their ownership order',()=>{const before=structuredClone(owned);expect(filterCollection(owned,'','all',false,'iv')[0].id).toBe('b');expect(owned).toEqual(before);});
+  it('computes coverage from moves and shared weaknesses from defensive typing',()=>{const grass=teamCoverage([owned[0]]);expect(grass.covered).toContain('water');expect(grass.sharedWeaknesses).toContain('fire');const mixed=teamCoverage([owned[0],owned[1],owned[2]]);expect(mixed.covered.length).toBeGreaterThan(grass.covered.length);expect(mixed.sharedWeaknesses).not.toContain('fire');expect(teamCoverage([]).sharedWeaknesses).toEqual([]);});
+  it('rates IVs independently from shininess',()=>{expect(ivQuality(specimen('max',1,31))).toMatchObject({percent:100,stars:3,label:'Exceptional'});const shinyVariant={...owned[0],shiny:true};expect(ivQuality(shinyVariant)).toEqual(ivQuality(owned[0]));expect(ivQuality(specimen('min',1,0)).stars).toBe(0);});
+  it('distinguishes first discovery, new individual best, and ordinary duplicates',()=>{const p=newProfile(),catchA=specimen('first',25,10);p.collection=[catchA];expect(captureHighlights(catchA,p).first).toBe(true);const best=specimen('best',25,31);p.collection.push(best);expect(captureHighlights(best,p)).toMatchObject({first:false,personalBest:true});expect(captureHighlights(catchA,p).personalBest).toBe(false);});
+  it('renders every owned specimen rather than truncating to the first three',()=>{const html=renderToStaticMarkup(createElement(CollectionBrowser,{specimens:owned,selectedIds:[],selecting:true,onSelect:()=>{},onInspect:()=>{}}));expect(html).toContain('Dratini');expect(html).toContain('Inspect collected Dratini');expect(html).toContain('Search collection');expect(html).toContain('Sort collection');});
+});
+
+describe('capture and world presentation',()=>{
+  it('celebrates a caught specimen even when it is not in the current party',()=>{const s=newGame();startRun(s,1);const catchP=createPokemon(s,25,5);const p=claimFirstPartner(newProfile(),1);p.collection.push({...catchP,id:catchP.uid});const html=renderToStaticMarkup(createElement(CaptureReveal,{pokemon:catchP,profile:p,onInspect:()=>{}}));expect(html).toContain('NEW POKÉMON!');expect(html).toContain('Summary of caught Pikachu');expect(html).toContain('Pikachu');expect(s.party).toHaveLength(1);});
+  it('keeps capture statistics behind the summary action',()=>{const s=newGame(),pokemon=createPokemon(s,25,5),profile=newProfile();const html=renderToStaticMarkup(createElement(CaptureReveal,{pokemon,profile,onInspect:()=>{}}));expect(html).toContain('Summary of caught Pikachu');expect(html).not.toContain('capture-quality');expect(html).not.toContain('% IV');});
+  it('uses the shiny artwork and aura on a shiny capture',()=>{const s=newGame(),pokemon=createPokemon(s,41,5);pokemon.shiny=true;const p=newProfile();p.collection.push({...pokemon,id:pokemon.uid});const html=renderToStaticMarkup(createElement(CaptureReveal,{pokemon,profile:p,onInspect:()=>{}}));expect(html).toContain('SHINY!');expect(html).toContain('/shiny/41.png');expect(html).toContain('shiny-aura');});
+  it('keeps the scenery decorative and distinct for all three biomes',()=>{const variants=[0,1,2].map(act=>renderToStaticMarkup(createElement(WorldScene,{act,battle:true})));expect(new Set(variants).size).toBe(3);for(const html of variants){expect(html).toContain('aria-hidden="true"');expect(html).toContain('battle-islands');expect(html).not.toContain('tabindex');}expect(renderToStaticMarkup(createElement(WorldScene,{act:0,battle:false}))).not.toContain('battle-islands');});
+});

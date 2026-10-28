@@ -1,0 +1,14 @@
+import {RELICS,type GameState} from './engine/game';
+import {UPGRADE_DEFS,type UpgradeKey,type Upgrades} from './engine/profile';
+export const ITEM_ICONS={medicine:'potion',potions:'potion',hp:'hp-up',balls:'poke-ball',supplies:'poke-ball',gold:'nugget',grounding:'assault-vest',fang:'dragon-fang',lens:'wide-lens',vitality:'miracle-seed',venomheart:'black-sludge',venomfang:'poison-barb',venomlens:'wide-lens',relayguard:'assault-vest',relayrush:'quick-claw',relaypatch:'sitrus-berry'} as const;
+export type ItemIcon=typeof ITEM_ICONS[keyof typeof ITEM_ICONS]|'great-ball'|'oran-berry'|'revive';
+export type UpgradeView={id:string;name:string;icon:ItemIcon;benefit:string;detail:string;kind:'RUN UPGRADE'|'SUPPLIES'|'PERMANENT'};
+export function rewardView(id:string,game?:GameState):UpgradeView{
+ const r=RELICS[id as keyof typeof RELICS],icon=ITEM_ICONS[id as keyof typeof ITEM_ICONS]??'poke-ball';
+ const benefits:Record<string,string>={medicine:'+2 POTIONS',supplies:'+3 BALLS · +1 BERRY',gold:'+35 GOLD',fang:'+15% DAMAGE',grounding:`−${Math.round((game?.config.weaknessReduction??.3)*100)}% EXTRA WEAKNESS`,lens:'+25% CATCH CHANCE',vitality:'HEAL 12% AFTER BATTLE',venomheart:'HEAL UP TO 2 HP / POISON TICK',venomfang:'+35% VS POISONED FOES',venomlens:'CATCH ×1.4 VS POISON',relayguard:'BLOCK 50% ON FIRST SWITCH',relayrush:'+35% NEXT HIT AFTER SWITCH',relaypatch:'HEAL 20% ON FIRST SWITCH'};
+ const details:Record<string,string>={fang:'Boosts your team’s damaging moves.',lens:'Stacks with low HP and conditions.',vitality:'Living teammates recover after victory.',venomheart:'Poison the enemy to recover HP.',venomfang:'Poison first, then attack.',venomlens:'Apply poison to help capture.',relayguard:'Once per battle. Switching still uses a turn.',relayrush:'First voluntary switch of each battle.',relaypatch:'First voluntary switch of each battle.'};
+ const detail=id==='medicine'?'Use from your bag: each potion heals 30 HP.':id==='supplies'?'Poké Balls for catching. Berry heals automatically.':id==='grounding'?'Reduces only extra weakness damage.':details[id]??r?.description??'Coins for merchant supplies.';
+ return {id,name:r?.name??({medicine:'Potions',supplies:'Capture supplies',gold:'Gold'}[id]??id),icon,benefit:benefits[id]??'',detail,kind:r?'RUN UPGRADE':'SUPPLIES'};
+}
+export function permanentViews(upgrades:Upgrades):UpgradeView[]{return (Object.keys(UPGRADE_DEFS) as UpgradeKey[]).filter(k=>upgrades[k]>0).map(id=>({id,name:UPGRADE_DEFS[id].name,icon:ITEM_ICONS[id],benefit:id==='hp'?`+${upgrades.hp*5}% MAX HP`:id==='potions'?'+1 STARTING POTION':'+3 STARTING BALLS',detail:UPGRADE_DEFS[id].description,kind:'PERMANENT' as const}));}
+export function activeUpgradeViews(game:GameState){return [...permanentViews(game.upgradeSnapshot??{hp:0,potions:0,balls:0}),...game.relics.map(id=>rewardView(id,game))];}

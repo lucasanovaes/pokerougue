@@ -1,0 +1,5776 @@
+{
+  "totalRuns": 192000,
+  "seedsPerStarterCohort": 1000,
+  "nonTerminating": 0,
+  "policy": "Control uses independent direction draws (one fixed node per step). Public-route adds lead selection using only the opponent/type forecast shown in the map and current party moves/HP. In Quick Run it also responds to visible intent/status. Neither inspects future IVs, shinies, rewards or hidden combat rolls.",
+  "notes": [
+    "Bot results are not human win rates or evidence of retention.",
+    "Fresh/upgraded/perfect-shiny cohorts start with one partner; collection-6 is an endowed mixed normal IV-18 roster.",
+    "Room schedule is fixed; forecasted species differ by seed and persist. All upcoming guardian supports are public.",
+    "Legacy blind-route simulations and the frozen baseline are preserved in separate reports. Their acceptance thresholds are not weakened or reused as fixed-route win-rate claims.",
+    "Comparison of policies combines lead planning and, in Quick Run, visible-intent use. It is not an isolated experiment measuring only map previews.",
+    "Quick Run has one guardian battle; Journey has three."
+  ],
+  "report": [
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        992,
+        881,
+        336
+      ],
+      "cleared": [
+        883,
+        336,
+        199
+      ],
+      "bossClearPct": [
+        88.3,
+        33.6,
+        19.9
+      ],
+      "bossConditionalPct": [
+        89,
+        38.1,
+        59.2
+      ],
+      "fullRunPct": 19.9,
+      "huntCompleted": null,
+      "meanActions": 89
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        998,
+        967,
+        405
+      ],
+      "cleared": [
+        968,
+        405,
+        354
+      ],
+      "bossClearPct": [
+        96.8,
+        40.5,
+        35.4
+      ],
+      "bossConditionalPct": [
+        97,
+        41.9,
+        87.4
+      ],
+      "fullRunPct": 35.4,
+      "huntCompleted": null,
+      "meanActions": 89.9
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        999,
+        862,
+        511
+      ],
+      "cleared": [
+        863,
+        513,
+        438
+      ],
+      "bossClearPct": [
+        86.3,
+        51.3,
+        43.8
+      ],
+      "bossConditionalPct": [
+        86.4,
+        59.5,
+        85.7
+      ],
+      "fullRunPct": 43.8,
+      "huntCompleted": null,
+      "meanActions": 100.4
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        995,
+        974,
+        846
+      ],
+      "cleared": [
+        976,
+        846,
+        764
+      ],
+      "bossClearPct": [
+        97.6,
+        84.6,
+        76.4
+      ],
+      "bossConditionalPct": [
+        98.1,
+        86.9,
+        90.3
+      ],
+      "fullRunPct": 76.4,
+      "huntCompleted": null,
+      "meanActions": 96.9
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        991,
+        967,
+        479
+      ],
+      "cleared": [
+        968,
+        479,
+        443
+      ],
+      "bossClearPct": [
+        96.8,
+        47.9,
+        44.3
+      ],
+      "bossConditionalPct": [
+        97.7,
+        49.5,
+        92.5
+      ],
+      "fullRunPct": 44.3,
+      "huntCompleted": null,
+      "meanActions": 83.4
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        983,
+        925,
+        440
+      ],
+      "cleared": [
+        929,
+        441,
+        245
+      ],
+      "bossClearPct": [
+        92.9,
+        44.1,
+        24.5
+      ],
+      "bossConditionalPct": [
+        94.5,
+        47.7,
+        55.7
+      ],
+      "fullRunPct": 24.5,
+      "huntCompleted": null,
+      "meanActions": 88.5
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        985,
+        876,
+        298
+      ],
+      "cleared": [
+        881,
+        298,
+        158
+      ],
+      "bossClearPct": [
+        88.1,
+        29.8,
+        15.8
+      ],
+      "bossConditionalPct": [
+        89.4,
+        34,
+        53
+      ],
+      "fullRunPct": 15.8,
+      "huntCompleted": null,
+      "meanActions": 87.6
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        997,
+        907,
+        408
+      ],
+      "cleared": [
+        909,
+        409,
+        204
+      ],
+      "bossClearPct": [
+        90.9,
+        40.9,
+        20.4
+      ],
+      "bossConditionalPct": [
+        91.2,
+        45.1,
+        50
+      ],
+      "fullRunPct": 20.4,
+      "huntCompleted": null,
+      "meanActions": 101.2
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        998,
+        962,
+        628
+      ],
+      "cleared": [
+        962,
+        628,
+        415
+      ],
+      "bossClearPct": [
+        96.2,
+        62.8,
+        41.5
+      ],
+      "bossConditionalPct": [
+        96.4,
+        65.3,
+        66.1
+      ],
+      "fullRunPct": 41.5,
+      "huntCompleted": null,
+      "meanActions": 104.5
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        996,
+        989,
+        669
+      ],
+      "cleared": [
+        989,
+        669,
+        655
+      ],
+      "bossClearPct": [
+        98.9,
+        66.9,
+        65.5
+      ],
+      "bossConditionalPct": [
+        99.3,
+        67.6,
+        97.9
+      ],
+      "fullRunPct": 65.5,
+      "huntCompleted": null,
+      "meanActions": 98
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        999,
+        950,
+        850
+      ],
+      "cleared": [
+        951,
+        850,
+        780
+      ],
+      "bossClearPct": [
+        95.1,
+        85,
+        78
+      ],
+      "bossConditionalPct": [
+        95.2,
+        89.5,
+        91.8
+      ],
+      "fullRunPct": 78,
+      "huntCompleted": null,
+      "meanActions": 117.2
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        998,
+        982,
+        936
+      ],
+      "cleared": [
+        984,
+        936,
+        903
+      ],
+      "bossClearPct": [
+        98.4,
+        93.6,
+        90.3
+      ],
+      "bossConditionalPct": [
+        98.6,
+        95.3,
+        96.5
+      ],
+      "fullRunPct": 90.3,
+      "huntCompleted": null,
+      "meanActions": 98.2
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        997,
+        984,
+        667
+      ],
+      "cleared": [
+        985,
+        667,
+        628
+      ],
+      "bossClearPct": [
+        98.5,
+        66.7,
+        62.8
+      ],
+      "bossConditionalPct": [
+        98.8,
+        67.8,
+        94.2
+      ],
+      "fullRunPct": 62.8,
+      "huntCompleted": null,
+      "meanActions": 90.9
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        986,
+        957,
+        561
+      ],
+      "cleared": [
+        958,
+        561,
+        348
+      ],
+      "bossClearPct": [
+        95.8,
+        56.1,
+        34.8
+      ],
+      "bossConditionalPct": [
+        97.2,
+        58.6,
+        62
+      ],
+      "fullRunPct": 34.8,
+      "huntCompleted": null,
+      "meanActions": 96.8
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        992,
+        905,
+        547
+      ],
+      "cleared": [
+        906,
+        547,
+        361
+      ],
+      "bossClearPct": [
+        90.6,
+        54.7,
+        36.1
+      ],
+      "bossConditionalPct": [
+        91.3,
+        60.4,
+        66
+      ],
+      "fullRunPct": 36.1,
+      "huntCompleted": null,
+      "meanActions": 99.1
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        999,
+        978,
+        820
+      ],
+      "cleared": [
+        978,
+        820,
+        528
+      ],
+      "bossClearPct": [
+        97.8,
+        82,
+        52.8
+      ],
+      "bossConditionalPct": [
+        97.9,
+        83.8,
+        64.4
+      ],
+      "fullRunPct": 52.8,
+      "huntCompleted": null,
+      "meanActions": 122.1
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        999,
+        999,
+        933
+      ],
+      "cleared": [
+        999,
+        933,
+        893
+      ],
+      "bossClearPct": [
+        99.9,
+        93.3,
+        89.3
+      ],
+      "bossConditionalPct": [
+        100,
+        93.4,
+        95.7
+      ],
+      "fullRunPct": 89.3,
+      "huntCompleted": null,
+      "meanActions": 97.7
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        819
+      ],
+      "cleared": [
+        1000,
+        819,
+        818
+      ],
+      "bossClearPct": [
+        100,
+        81.9,
+        81.8
+      ],
+      "bossConditionalPct": [
+        100,
+        81.9,
+        99.9
+      ],
+      "fullRunPct": 81.8,
+      "huntCompleted": null,
+      "meanActions": 91.6
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        998,
+        998
+      ],
+      "cleared": [
+        998,
+        998,
+        998
+      ],
+      "bossClearPct": [
+        99.8,
+        99.8,
+        99.8
+      ],
+      "bossConditionalPct": [
+        99.8,
+        100,
+        100
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": null,
+      "meanActions": 99.7
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        1000
+      ],
+      "cleared": [
+        1000,
+        1000,
+        1000
+      ],
+      "bossClearPct": [
+        100,
+        100,
+        100
+      ],
+      "bossConditionalPct": [
+        100,
+        100,
+        100
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": null,
+      "meanActions": 80.3
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        999,
+        998,
+        893
+      ],
+      "cleared": [
+        999,
+        893,
+        893
+      ],
+      "bossClearPct": [
+        99.9,
+        89.3,
+        89.3
+      ],
+      "bossConditionalPct": [
+        100,
+        89.5,
+        100
+      ],
+      "fullRunPct": 89.3,
+      "huntCompleted": null,
+      "meanActions": 83.7
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        995,
+        990,
+        825
+      ],
+      "cleared": [
+        991,
+        825,
+        542
+      ],
+      "bossClearPct": [
+        99.1,
+        82.5,
+        54.2
+      ],
+      "bossConditionalPct": [
+        99.6,
+        83.3,
+        65.7
+      ],
+      "fullRunPct": 54.2,
+      "huntCompleted": null,
+      "meanActions": 99.4
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        978,
+        834
+      ],
+      "cleared": [
+        978,
+        834,
+        693
+      ],
+      "bossClearPct": [
+        97.8,
+        83.4,
+        69.3
+      ],
+      "bossConditionalPct": [
+        97.8,
+        85.3,
+        83.1
+      ],
+      "fullRunPct": 69.3,
+      "huntCompleted": null,
+      "meanActions": 101.1
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        997
+      ],
+      "cleared": [
+        1000,
+        997,
+        969
+      ],
+      "bossClearPct": [
+        100,
+        99.7,
+        96.9
+      ],
+      "bossConditionalPct": [
+        100,
+        99.7,
+        97.2
+      ],
+      "fullRunPct": 96.9,
+      "huntCompleted": null,
+      "meanActions": 107.1
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        995
+      ],
+      "cleared": [
+        1000,
+        995,
+        995
+      ],
+      "bossClearPct": [
+        100,
+        99.5,
+        99.5
+      ],
+      "bossConditionalPct": [
+        100,
+        99.5,
+        100
+      ],
+      "fullRunPct": 99.5,
+      "huntCompleted": null,
+      "meanActions": 111.2
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        993
+      ],
+      "cleared": [
+        1000,
+        993,
+        993
+      ],
+      "bossClearPct": [
+        100,
+        99.3,
+        99.3
+      ],
+      "bossConditionalPct": [
+        100,
+        99.3,
+        100
+      ],
+      "fullRunPct": 99.3,
+      "huntCompleted": null,
+      "meanActions": 116.7
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        996
+      ],
+      "cleared": [
+        1000,
+        996,
+        996
+      ],
+      "bossClearPct": [
+        100,
+        99.6,
+        99.6
+      ],
+      "bossConditionalPct": [
+        100,
+        99.6,
+        100
+      ],
+      "fullRunPct": 99.6,
+      "huntCompleted": null,
+      "meanActions": 118.6
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        964
+      ],
+      "cleared": [
+        1000,
+        964,
+        964
+      ],
+      "bossClearPct": [
+        100,
+        96.4,
+        96.4
+      ],
+      "bossConditionalPct": [
+        100,
+        96.4,
+        100
+      ],
+      "fullRunPct": 96.4,
+      "huntCompleted": null,
+      "meanActions": 116.6
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        994
+      ],
+      "cleared": [
+        1000,
+        994,
+        993
+      ],
+      "bossClearPct": [
+        100,
+        99.4,
+        99.3
+      ],
+      "bossConditionalPct": [
+        100,
+        99.4,
+        99.9
+      ],
+      "fullRunPct": 99.3,
+      "huntCompleted": null,
+      "meanActions": 91.4
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        951
+      ],
+      "cleared": [
+        1000,
+        951,
+        951
+      ],
+      "bossClearPct": [
+        100,
+        95.1,
+        95.1
+      ],
+      "bossConditionalPct": [
+        100,
+        95.1,
+        100
+      ],
+      "fullRunPct": 95.1,
+      "huntCompleted": null,
+      "meanActions": 116.9
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        960
+      ],
+      "cleared": [
+        1000,
+        960,
+        960
+      ],
+      "bossClearPct": [
+        100,
+        96,
+        96
+      ],
+      "bossConditionalPct": [
+        100,
+        96,
+        100
+      ],
+      "fullRunPct": 96,
+      "huntCompleted": null,
+      "meanActions": 110.2
+    },
+    {
+      "policy": "control",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        985
+      ],
+      "cleared": [
+        1000,
+        985,
+        985
+      ],
+      "bossClearPct": [
+        100,
+        98.5,
+        98.5
+      ],
+      "bossConditionalPct": [
+        100,
+        98.5,
+        100
+      ],
+      "fullRunPct": 98.5,
+      "huntCompleted": null,
+      "meanActions": 120.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        995,
+        0,
+        0
+      ],
+      "cleared": [
+        991,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.1,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.6,
+        0,
+        0
+      ],
+      "fullRunPct": 99.1,
+      "huntCompleted": 665,
+      "meanActions": 48.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        949,
+        0,
+        0
+      ],
+      "cleared": [
+        912,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.2,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        96.1,
+        0,
+        0
+      ],
+      "fullRunPct": 91.2,
+      "huntCompleted": 667,
+      "meanActions": 46.2
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        990,
+        0,
+        0
+      ],
+      "cleared": [
+        932,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        93.2,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.1,
+        0,
+        0
+      ],
+      "fullRunPct": 93.2,
+      "huntCompleted": 660,
+      "meanActions": 51.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        918,
+        0,
+        0
+      ],
+      "cleared": [
+        915,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 91.5,
+      "huntCompleted": 638,
+      "meanActions": 39.8
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        991,
+        0,
+        0
+      ],
+      "cleared": [
+        989,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.8,
+        0,
+        0
+      ],
+      "fullRunPct": 98.9,
+      "huntCompleted": 667,
+      "meanActions": 40.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        887,
+        0,
+        0
+      ],
+      "cleared": [
+        840,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        84,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.7,
+        0,
+        0
+      ],
+      "fullRunPct": 84,
+      "huntCompleted": 623,
+      "meanActions": 39.7
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        995,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 99.5,
+      "huntCompleted": 664,
+      "meanActions": 43.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        996,
+        0,
+        0
+      ],
+      "cleared": [
+        905,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        90.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        90.9,
+        0,
+        0
+      ],
+      "fullRunPct": 90.5,
+      "huntCompleted": 538,
+      "meanActions": 54.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        999,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": 667,
+      "meanActions": 48
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        955,
+        0,
+        0
+      ],
+      "cleared": [
+        916,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.6,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        95.9,
+        0,
+        0
+      ],
+      "fullRunPct": 91.6,
+      "huntCompleted": 664,
+      "meanActions": 46.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        985,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        98.5,
+        0,
+        0
+      ],
+      "fullRunPct": 98.5,
+      "huntCompleted": 667,
+      "meanActions": 50.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        938,
+        0,
+        0
+      ],
+      "cleared": [
+        918,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.9,
+        0,
+        0
+      ],
+      "fullRunPct": 91.8,
+      "huntCompleted": 645,
+      "meanActions": 40.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        991,
+        0,
+        0
+      ],
+      "cleared": [
+        990,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99,
+      "huntCompleted": 667,
+      "meanActions": 40.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        916,
+        0,
+        0
+      ],
+      "cleared": [
+        863,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        86.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.2,
+        0,
+        0
+      ],
+      "fullRunPct": 86.3,
+      "huntCompleted": 634,
+      "meanActions": 40.9
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.8,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 666,
+      "meanActions": 43.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        969,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.1,
+        0,
+        0
+      ],
+      "fullRunPct": 96.9,
+      "huntCompleted": 560,
+      "meanActions": 53.6
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 667,
+      "meanActions": 41.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        997,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 666,
+      "meanActions": 40.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 667,
+      "meanActions": 42.7
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        973,
+        0,
+        0
+      ],
+      "cleared": [
+        964,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.1,
+        0,
+        0
+      ],
+      "fullRunPct": 96.4,
+      "huntCompleted": 657,
+      "meanActions": 37.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        998,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": 667,
+      "meanActions": 37.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        982,
+        0,
+        0
+      ],
+      "cleared": [
+        964,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        98.2,
+        0,
+        0
+      ],
+      "fullRunPct": 96.4,
+      "huntCompleted": 659,
+      "meanActions": 38.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 667,
+      "meanActions": 37.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        987,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        98.7,
+        0,
+        0
+      ],
+      "fullRunPct": 98.7,
+      "huntCompleted": 614,
+      "meanActions": 47.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 34.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 34.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 42.9
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 33.9
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 32.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 37.7
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 33.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 41.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        995,
+        0,
+        0
+      ],
+      "cleared": [
+        991,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.1,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.6,
+        0,
+        0
+      ],
+      "fullRunPct": 99.1,
+      "huntCompleted": 665,
+      "meanActions": 48.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        949,
+        0,
+        0
+      ],
+      "cleared": [
+        912,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.2,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        96.1,
+        0,
+        0
+      ],
+      "fullRunPct": 91.2,
+      "huntCompleted": 667,
+      "meanActions": 46.2
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        990,
+        0,
+        0
+      ],
+      "cleared": [
+        932,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        93.2,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.1,
+        0,
+        0
+      ],
+      "fullRunPct": 93.2,
+      "huntCompleted": 660,
+      "meanActions": 51.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        918,
+        0,
+        0
+      ],
+      "cleared": [
+        915,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 91.5,
+      "huntCompleted": 638,
+      "meanActions": 39.8
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        991,
+        0,
+        0
+      ],
+      "cleared": [
+        989,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.8,
+        0,
+        0
+      ],
+      "fullRunPct": 98.9,
+      "huntCompleted": 667,
+      "meanActions": 40.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        887,
+        0,
+        0
+      ],
+      "cleared": [
+        840,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        84,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.7,
+        0,
+        0
+      ],
+      "fullRunPct": 84,
+      "huntCompleted": 623,
+      "meanActions": 39.7
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        995,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 99.5,
+      "huntCompleted": 664,
+      "meanActions": 43.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        996,
+        0,
+        0
+      ],
+      "cleared": [
+        905,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        90.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        90.9,
+        0,
+        0
+      ],
+      "fullRunPct": 90.5,
+      "huntCompleted": 538,
+      "meanActions": 54.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        999,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": 667,
+      "meanActions": 48
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        955,
+        0,
+        0
+      ],
+      "cleared": [
+        916,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.6,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        95.9,
+        0,
+        0
+      ],
+      "fullRunPct": 91.6,
+      "huntCompleted": 664,
+      "meanActions": 46.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        985,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        98.5,
+        0,
+        0
+      ],
+      "fullRunPct": 98.5,
+      "huntCompleted": 667,
+      "meanActions": 50.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        938,
+        0,
+        0
+      ],
+      "cleared": [
+        918,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.9,
+        0,
+        0
+      ],
+      "fullRunPct": 91.8,
+      "huntCompleted": 645,
+      "meanActions": 40.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        991,
+        0,
+        0
+      ],
+      "cleared": [
+        990,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99,
+      "huntCompleted": 667,
+      "meanActions": 40.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        916,
+        0,
+        0
+      ],
+      "cleared": [
+        863,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        86.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.2,
+        0,
+        0
+      ],
+      "fullRunPct": 86.3,
+      "huntCompleted": 634,
+      "meanActions": 40.9
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.8,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 666,
+      "meanActions": 43.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        969,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.1,
+        0,
+        0
+      ],
+      "fullRunPct": 96.9,
+      "huntCompleted": 560,
+      "meanActions": 53.6
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 667,
+      "meanActions": 41.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        997,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 666,
+      "meanActions": 40.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 667,
+      "meanActions": 42.7
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        973,
+        0,
+        0
+      ],
+      "cleared": [
+        964,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.1,
+        0,
+        0
+      ],
+      "fullRunPct": 96.4,
+      "huntCompleted": 657,
+      "meanActions": 37.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        998,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": 667,
+      "meanActions": 37.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        982,
+        0,
+        0
+      ],
+      "cleared": [
+        964,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        98.2,
+        0,
+        0
+      ],
+      "fullRunPct": 96.4,
+      "huntCompleted": 659,
+      "meanActions": 38.1
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 667,
+      "meanActions": 37.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        987,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        98.7,
+        0,
+        0
+      ],
+      "fullRunPct": 98.7,
+      "huntCompleted": 614,
+      "meanActions": 47.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 34.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 34.5
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 42.9
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 33.9
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 32.4
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 37.7
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 33.3
+    },
+    {
+      "policy": "control",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 41.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        995,
+        876,
+        338
+      ],
+      "cleared": [
+        878,
+        339,
+        180
+      ],
+      "bossClearPct": [
+        87.8,
+        33.9,
+        18
+      ],
+      "bossConditionalPct": [
+        88.2,
+        38.7,
+        53.3
+      ],
+      "fullRunPct": 18,
+      "huntCompleted": null,
+      "meanActions": 85.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        996,
+        962,
+        366
+      ],
+      "cleared": [
+        963,
+        366,
+        277
+      ],
+      "bossClearPct": [
+        96.3,
+        36.6,
+        27.7
+      ],
+      "bossConditionalPct": [
+        96.7,
+        38,
+        75.7
+      ],
+      "fullRunPct": 27.7,
+      "huntCompleted": null,
+      "meanActions": 85.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        999,
+        847,
+        469
+      ],
+      "cleared": [
+        848,
+        470,
+        369
+      ],
+      "bossClearPct": [
+        84.8,
+        47,
+        36.9
+      ],
+      "bossConditionalPct": [
+        84.9,
+        55.5,
+        78.7
+      ],
+      "fullRunPct": 36.9,
+      "huntCompleted": null,
+      "meanActions": 93.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        997,
+        975,
+        815
+      ],
+      "cleared": [
+        978,
+        815,
+        719
+      ],
+      "bossClearPct": [
+        97.8,
+        81.5,
+        71.9
+      ],
+      "bossConditionalPct": [
+        98.1,
+        83.6,
+        88.2
+      ],
+      "fullRunPct": 71.9,
+      "huntCompleted": null,
+      "meanActions": 95.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        991,
+        971,
+        426
+      ],
+      "cleared": [
+        973,
+        426,
+        398
+      ],
+      "bossClearPct": [
+        97.3,
+        42.6,
+        39.8
+      ],
+      "bossConditionalPct": [
+        98.2,
+        43.9,
+        93.4
+      ],
+      "fullRunPct": 39.8,
+      "huntCompleted": null,
+      "meanActions": 80
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        985,
+        945,
+        400
+      ],
+      "cleared": [
+        949,
+        400,
+        224
+      ],
+      "bossClearPct": [
+        94.9,
+        40,
+        22.4
+      ],
+      "bossConditionalPct": [
+        96.3,
+        42.3,
+        56
+      ],
+      "fullRunPct": 22.4,
+      "huntCompleted": null,
+      "meanActions": 83.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        992,
+        797,
+        277
+      ],
+      "cleared": [
+        800,
+        277,
+        163
+      ],
+      "bossClearPct": [
+        80,
+        27.7,
+        16.3
+      ],
+      "bossConditionalPct": [
+        80.6,
+        34.8,
+        58.8
+      ],
+      "fullRunPct": 16.3,
+      "huntCompleted": null,
+      "meanActions": 81.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        997,
+        894,
+        437
+      ],
+      "cleared": [
+        895,
+        437,
+        225
+      ],
+      "bossClearPct": [
+        89.5,
+        43.7,
+        22.5
+      ],
+      "bossConditionalPct": [
+        89.8,
+        48.9,
+        51.5
+      ],
+      "fullRunPct": 22.5,
+      "huntCompleted": null,
+      "meanActions": 94.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        998,
+        957,
+        631
+      ],
+      "cleared": [
+        957,
+        631,
+        402
+      ],
+      "bossClearPct": [
+        95.7,
+        63.1,
+        40.2
+      ],
+      "bossConditionalPct": [
+        95.9,
+        65.9,
+        63.7
+      ],
+      "fullRunPct": 40.2,
+      "huntCompleted": null,
+      "meanActions": 98.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        999,
+        993,
+        559
+      ],
+      "cleared": [
+        993,
+        559,
+        476
+      ],
+      "bossClearPct": [
+        99.3,
+        55.9,
+        47.6
+      ],
+      "bossConditionalPct": [
+        99.4,
+        56.3,
+        85.2
+      ],
+      "fullRunPct": 47.6,
+      "huntCompleted": null,
+      "meanActions": 92.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        998,
+        954,
+        768
+      ],
+      "cleared": [
+        955,
+        768,
+        652
+      ],
+      "bossClearPct": [
+        95.5,
+        76.8,
+        65.2
+      ],
+      "bossConditionalPct": [
+        95.7,
+        80.5,
+        84.9
+      ],
+      "fullRunPct": 65.2,
+      "huntCompleted": null,
+      "meanActions": 107.2
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        998,
+        983,
+        941
+      ],
+      "cleared": [
+        983,
+        941,
+        906
+      ],
+      "bossClearPct": [
+        98.3,
+        94.1,
+        90.6
+      ],
+      "bossConditionalPct": [
+        98.5,
+        95.7,
+        96.3
+      ],
+      "fullRunPct": 90.6,
+      "huntCompleted": null,
+      "meanActions": 97.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        997,
+        975,
+        623
+      ],
+      "cleared": [
+        976,
+        623,
+        611
+      ],
+      "bossClearPct": [
+        97.6,
+        62.3,
+        61.1
+      ],
+      "bossConditionalPct": [
+        97.9,
+        63.9,
+        98.1
+      ],
+      "fullRunPct": 61.1,
+      "huntCompleted": null,
+      "meanActions": 85.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        992,
+        970,
+        544
+      ],
+      "cleared": [
+        970,
+        544,
+        333
+      ],
+      "bossClearPct": [
+        97,
+        54.4,
+        33.3
+      ],
+      "bossConditionalPct": [
+        97.8,
+        56.1,
+        61.2
+      ],
+      "fullRunPct": 33.3,
+      "huntCompleted": null,
+      "meanActions": 91.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        994,
+        908,
+        541
+      ],
+      "cleared": [
+        912,
+        541,
+        364
+      ],
+      "bossClearPct": [
+        91.2,
+        54.1,
+        36.4
+      ],
+      "bossConditionalPct": [
+        91.8,
+        59.6,
+        67.3
+      ],
+      "fullRunPct": 36.4,
+      "huntCompleted": null,
+      "meanActions": 94.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        954,
+        736
+      ],
+      "cleared": [
+        954,
+        736,
+        470
+      ],
+      "bossClearPct": [
+        95.4,
+        73.6,
+        47
+      ],
+      "bossConditionalPct": [
+        95.4,
+        77.1,
+        63.9
+      ],
+      "fullRunPct": 47,
+      "huntCompleted": null,
+      "meanActions": 108.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        999,
+        867
+      ],
+      "cleared": [
+        999,
+        867,
+        771
+      ],
+      "bossClearPct": [
+        99.9,
+        86.7,
+        77.1
+      ],
+      "bossConditionalPct": [
+        99.9,
+        86.8,
+        88.9
+      ],
+      "fullRunPct": 77.1,
+      "huntCompleted": null,
+      "meanActions": 98.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        998,
+        647
+      ],
+      "cleared": [
+        998,
+        647,
+        620
+      ],
+      "bossClearPct": [
+        99.8,
+        64.7,
+        62
+      ],
+      "bossConditionalPct": [
+        99.8,
+        64.8,
+        95.8
+      ],
+      "fullRunPct": 62,
+      "huntCompleted": null,
+      "meanActions": 90.2
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        976
+      ],
+      "cleared": [
+        1000,
+        976,
+        962
+      ],
+      "bossClearPct": [
+        100,
+        97.6,
+        96.2
+      ],
+      "bossConditionalPct": [
+        100,
+        97.6,
+        98.6
+      ],
+      "fullRunPct": 96.2,
+      "huntCompleted": null,
+      "meanActions": 102.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        998,
+        998
+      ],
+      "cleared": [
+        998,
+        998,
+        998
+      ],
+      "bossClearPct": [
+        99.8,
+        99.8,
+        99.8
+      ],
+      "bossConditionalPct": [
+        99.8,
+        100,
+        100
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": null,
+      "meanActions": 86
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        999,
+        997,
+        841
+      ],
+      "cleared": [
+        998,
+        841,
+        841
+      ],
+      "bossClearPct": [
+        99.8,
+        84.1,
+        84.1
+      ],
+      "bossConditionalPct": [
+        99.9,
+        84.4,
+        100
+      ],
+      "fullRunPct": 84.1,
+      "huntCompleted": null,
+      "meanActions": 81.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        996,
+        990,
+        742
+      ],
+      "cleared": [
+        990,
+        742,
+        462
+      ],
+      "bossClearPct": [
+        99,
+        74.2,
+        46.2
+      ],
+      "bossConditionalPct": [
+        99.4,
+        74.9,
+        62.3
+      ],
+      "fullRunPct": 46.2,
+      "huntCompleted": null,
+      "meanActions": 92.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        999,
+        950,
+        736
+      ],
+      "cleared": [
+        950,
+        736,
+        595
+      ],
+      "bossClearPct": [
+        95,
+        73.6,
+        59.5
+      ],
+      "bossConditionalPct": [
+        95.1,
+        77.5,
+        80.8
+      ],
+      "fullRunPct": 59.5,
+      "huntCompleted": null,
+      "meanActions": 97.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        999,
+        992,
+        927
+      ],
+      "cleared": [
+        992,
+        927,
+        757
+      ],
+      "bossClearPct": [
+        99.2,
+        92.7,
+        75.7
+      ],
+      "bossConditionalPct": [
+        99.3,
+        93.4,
+        81.7
+      ],
+      "fullRunPct": 75.7,
+      "huntCompleted": null,
+      "meanActions": 111.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        998
+      ],
+      "cleared": [
+        1000,
+        998,
+        998
+      ],
+      "bossClearPct": [
+        100,
+        99.8,
+        99.8
+      ],
+      "bossConditionalPct": [
+        100,
+        99.8,
+        100
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": null,
+      "meanActions": 104.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        1000
+      ],
+      "cleared": [
+        1000,
+        1000,
+        1000
+      ],
+      "bossClearPct": [
+        100,
+        100,
+        100
+      ],
+      "bossConditionalPct": [
+        100,
+        100,
+        100
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": null,
+      "meanActions": 104.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        1000
+      ],
+      "cleared": [
+        1000,
+        1000,
+        1000
+      ],
+      "bossClearPct": [
+        100,
+        100,
+        100
+      ],
+      "bossConditionalPct": [
+        100,
+        100,
+        100
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": null,
+      "meanActions": 106
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        999
+      ],
+      "cleared": [
+        1000,
+        999,
+        999
+      ],
+      "bossClearPct": [
+        100,
+        99.9,
+        99.9
+      ],
+      "bossConditionalPct": [
+        100,
+        99.9,
+        100
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": null,
+      "meanActions": 100
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        996
+      ],
+      "cleared": [
+        1000,
+        996,
+        996
+      ],
+      "bossClearPct": [
+        100,
+        99.6,
+        99.6
+      ],
+      "bossConditionalPct": [
+        100,
+        99.6,
+        100
+      ],
+      "fullRunPct": 99.6,
+      "huntCompleted": null,
+      "meanActions": 103.2
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        982
+      ],
+      "cleared": [
+        1000,
+        982,
+        982
+      ],
+      "bossClearPct": [
+        100,
+        98.2,
+        98.2
+      ],
+      "bossConditionalPct": [
+        100,
+        98.2,
+        100
+      ],
+      "fullRunPct": 98.2,
+      "huntCompleted": null,
+      "meanActions": 106
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        991
+      ],
+      "cleared": [
+        1000,
+        991,
+        991
+      ],
+      "bossClearPct": [
+        100,
+        99.1,
+        99.1
+      ],
+      "bossConditionalPct": [
+        100,
+        99.1,
+        100
+      ],
+      "fullRunPct": 99.1,
+      "huntCompleted": null,
+      "meanActions": 104.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "journey",
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        1000,
+        998
+      ],
+      "cleared": [
+        1000,
+        998,
+        998
+      ],
+      "bossClearPct": [
+        100,
+        99.8,
+        99.8
+      ],
+      "bossConditionalPct": [
+        100,
+        99.8,
+        100
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": null,
+      "meanActions": 109.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        992,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.2,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.2,
+        0,
+        0
+      ],
+      "fullRunPct": 99.2,
+      "huntCompleted": 999,
+      "meanActions": 44.2
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        995,
+        0,
+        0
+      ],
+      "cleared": [
+        994,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.4,
+      "huntCompleted": 999,
+      "meanActions": 42.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        977,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        97.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.8,
+        0,
+        0
+      ],
+      "fullRunPct": 97.7,
+      "huntCompleted": 1000,
+      "meanActions": 44.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 998,
+      "meanActions": 41.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        998,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": 999,
+      "meanActions": 42.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        951,
+        0,
+        0
+      ],
+      "cleared": [
+        947,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        94.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.6,
+        0,
+        0
+      ],
+      "fullRunPct": 94.7,
+      "huntCompleted": 984,
+      "meanActions": 40.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        993,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.4,
+        0,
+        0
+      ],
+      "fullRunPct": 99.3,
+      "huntCompleted": 998,
+      "meanActions": 43.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        993,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.3,
+        0,
+        0
+      ],
+      "fullRunPct": 99.3,
+      "huntCompleted": 964,
+      "meanActions": 42.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        999,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": 999,
+      "meanActions": 44.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        997,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 1000,
+      "meanActions": 43.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        991,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.1,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.1,
+        0,
+        0
+      ],
+      "fullRunPct": 99.1,
+      "huntCompleted": 1000,
+      "meanActions": 45.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 43.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 44
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        962,
+        0,
+        0
+      ],
+      "cleared": [
+        959,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        95.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 95.9,
+      "huntCompleted": 990,
+      "meanActions": 41.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        998,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.8,
+        0,
+        0
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": 1000,
+      "meanActions": 43.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        999,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": 958,
+      "meanActions": 45
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 999,
+      "meanActions": 42.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        998,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 99.8,
+      "huntCompleted": 1000,
+      "meanActions": 42.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        999,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": 1000,
+      "meanActions": 44.2
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 42.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 43.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        995,
+        0,
+        0
+      ],
+      "cleared": [
+        995,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.5,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 99.5,
+      "huntCompleted": 998,
+      "meanActions": 41.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 42
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        999,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.9,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 99.9,
+      "huntCompleted": 980,
+      "meanActions": 42.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 39.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 38.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 42.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 34.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 998,
+      "meanActions": 39.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 36.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 998,
+      "meanActions": 34.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-venom",
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 1000,
+      "meanActions": 34.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        995,
+        0,
+        0
+      ],
+      "cleared": [
+        887,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        88.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        89.1,
+        0,
+        0
+      ],
+      "fullRunPct": 88.7,
+      "huntCompleted": 665,
+      "meanActions": 60.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        943,
+        0,
+        0
+      ],
+      "cleared": [
+        864,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        86.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        91.6,
+        0,
+        0
+      ],
+      "fullRunPct": 86.4,
+      "huntCompleted": 667,
+      "meanActions": 57.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        989,
+        0,
+        0
+      ],
+      "cleared": [
+        808,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        80.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        81.7,
+        0,
+        0
+      ],
+      "fullRunPct": 80.8,
+      "huntCompleted": 661,
+      "meanActions": 60.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        919,
+        0,
+        0
+      ],
+      "cleared": [
+        918,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        91.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.9,
+        0,
+        0
+      ],
+      "fullRunPct": 91.8,
+      "huntCompleted": 639,
+      "meanActions": 50.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        973,
+        0,
+        0
+      ],
+      "cleared": [
+        964,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.1,
+        0,
+        0
+      ],
+      "fullRunPct": 96.4,
+      "huntCompleted": 667,
+      "meanActions": 53.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        884,
+        0,
+        0
+      ],
+      "cleared": [
+        818,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        81.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        92.5,
+        0,
+        0
+      ],
+      "fullRunPct": 81.8,
+      "huntCompleted": 621,
+      "meanActions": 52.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        893,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        89.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        89.5,
+        0,
+        0
+      ],
+      "fullRunPct": 89.3,
+      "huntCompleted": 664,
+      "meanActions": 56.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "fresh",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        988,
+        0,
+        0
+      ],
+      "cleared": [
+        822,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        82.2,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        83.2,
+        0,
+        0
+      ],
+      "fullRunPct": 82.2,
+      "huntCompleted": 549,
+      "meanActions": 62
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        947,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        94.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        94.7,
+        0,
+        0
+      ],
+      "fullRunPct": 94.7,
+      "huntCompleted": 667,
+      "meanActions": 60.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        955,
+        0,
+        0
+      ],
+      "cleared": [
+        928,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        92.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.2,
+        0,
+        0
+      ],
+      "fullRunPct": 92.8,
+      "huntCompleted": 664,
+      "meanActions": 57.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        998,
+        0,
+        0
+      ],
+      "cleared": [
+        904,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        90.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        90.6,
+        0,
+        0
+      ],
+      "fullRunPct": 90.4,
+      "huntCompleted": 667,
+      "meanActions": 61.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        936,
+        0,
+        0
+      ],
+      "cleared": [
+        928,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        92.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.1,
+        0,
+        0
+      ],
+      "fullRunPct": 92.8,
+      "huntCompleted": 647,
+      "meanActions": 52.2
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        980,
+        0,
+        0
+      ],
+      "cleared": [
+        978,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        97.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.8,
+        0,
+        0
+      ],
+      "fullRunPct": 97.8,
+      "huntCompleted": 667,
+      "meanActions": 54.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        908,
+        0,
+        0
+      ],
+      "cleared": [
+        863,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        86.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        95,
+        0,
+        0
+      ],
+      "fullRunPct": 86.3,
+      "huntCompleted": 637,
+      "meanActions": 54.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        999,
+        0,
+        0
+      ],
+      "cleared": [
+        977,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        97.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.8,
+        0,
+        0
+      ],
+      "fullRunPct": 97.7,
+      "huntCompleted": 666,
+      "meanActions": 57.1
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "upgraded",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        996,
+        0,
+        0
+      ],
+      "cleared": [
+        930,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        93,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        93.4,
+        0,
+        0
+      ],
+      "fullRunPct": 93,
+      "huntCompleted": 571,
+      "meanActions": 60.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        997,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 99.7,
+      "huntCompleted": 667,
+      "meanActions": 52.8
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        977,
+        0,
+        0
+      ],
+      "cleared": [
+        977,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        97.7,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 97.7,
+      "huntCompleted": 666,
+      "meanActions": 53.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        958,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        95.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        95.8,
+        0,
+        0
+      ],
+      "fullRunPct": 95.8,
+      "huntCompleted": 667,
+      "meanActions": 57.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        971,
+        0,
+        0
+      ],
+      "cleared": [
+        968,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.8,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.7,
+        0,
+        0
+      ],
+      "fullRunPct": 96.8,
+      "huntCompleted": 661,
+      "meanActions": 51
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        984,
+        0,
+        0
+      ],
+      "cleared": [
+        984,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        98.4,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 98.4,
+      "huntCompleted": 667,
+      "meanActions": 52.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        984,
+        0,
+        0
+      ],
+      "cleared": [
+        963,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.3,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        97.9,
+        0,
+        0
+      ],
+      "fullRunPct": 96.3,
+      "huntCompleted": 661,
+      "meanActions": 53.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        996,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        99.6,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        99.6,
+        0,
+        0
+      ],
+      "fullRunPct": 99.6,
+      "huntCompleted": 667,
+      "meanActions": 50.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collected-shiny",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        961,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        96.1,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        96.1,
+        0,
+        0
+      ],
+      "fullRunPct": 96.1,
+      "huntCompleted": 588,
+      "meanActions": 56.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Bulbasaur",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 38.3
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Charmander",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 37.9
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Squirtle",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 43.6
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Zubat",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 33.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Geodude",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 38.5
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Paras",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 35.7
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Bellsprout",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 35.4
+    },
+    {
+      "policy": "public-route",
+      "mode": "quick-relay",
+      "cohort": "collection-6",
+      "starter": "Poliwhirl",
+      "runs": 1000,
+      "reached": [
+        1000,
+        0,
+        0
+      ],
+      "cleared": [
+        1000,
+        0,
+        0
+      ],
+      "bossClearPct": [
+        100,
+        0,
+        0
+      ],
+      "bossConditionalPct": [
+        100,
+        0,
+        0
+      ],
+      "fullRunPct": 100,
+      "huntCompleted": 333,
+      "meanActions": 33.2
+    }
+  ]
+}

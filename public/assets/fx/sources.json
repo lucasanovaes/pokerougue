@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fireball.png",
+    "source": "https://play.pokemonshowdown.com/fx/fireball.png",
+    "sha256": "6eb03a7bb5da44d3b8db50302593af47c0e2eda500b93ea9af4d009a4f7b6d73"
+  },
+  {
+    "file": "waterwisp.png",
+    "source": "https://play.pokemonshowdown.com/fx/waterwisp.png",
+    "sha256": "827bff8398b1a9ed75351b2dfd1bfc08586c8f8f99abd0a7d120d28618ed1249"
+  },
+  {
+    "file": "electroball.png",
+    "source": "https://play.pokemonshowdown.com/fx/electroball.png",
+    "sha256": "1b3d80a1405f07faac2e993ab4a75e0039317b162026d4a7b1b976724349d15d"
+  },
+  {
+    "file": "leaf1.png",
+    "source": "https://play.pokemonshowdown.com/fx/leaf1.png",
+    "sha256": "608a387738675f34f9228be3e4f5a10089360c18a43f7df2809975657f34f15e"
+  },
+  {
+    "file": "poisonwisp.png",
+    "source": "https://play.pokemonshowdown.com/fx/poisonwisp.png",
+    "sha256": "36ff479ebcdeea0d1946a9f70644e9623cc2d8591577b689ed4504728a8f4b14"
+  },
+  {
+    "file": "iceball.png",
+    "source": "https://play.pokemonshowdown.com/fx/iceball.png",
+    "sha256": "6daf927c0e06d28d2a6fa6376cd1cf990543a51510f4b99f87d8d8665c417d12"
+  },
+  {
+    "file": "rock1.png",
+    "source": "https://play.pokemonshowdown.com/fx/rock1.png",
+    "sha256": "c6c30c369aad2b4c8211a8a9f75583d7ccd58d93d641c352b63fafd6e7253739"
+  },
+  {
+    "file": "shadowball.png",
+    "source": "https://play.pokemonshowdown.com/fx/shadowball.png",
+    "sha256": "095793124bd03f8fb03449b865f8b6dba95bb6325105510eed5f598367c997d5"
+  },
+  {
+    "file": "energyball.png",
+    "source": "https://play.pokemonshowdown.com/fx/energyball.png",
+    "sha256": "6e030c2f647133503aa33b8041e1f687a3e2ca732e391119fe2282acf55d10fa"
+  },
+  {
+    "file": "fist.png",
+    "source": "https://play.pokemonshowdown.com/fx/fist.png",
+    "sha256": "736557438945ea08fab6016e536514d4707bcd3171f4b9a00d5caeffca0fab86"
+  },
+  {
+    "file": "impact.png",
+    "source": "https://play.pokemonshowdown.com/fx/impact.png",
+    "sha256": "b1c8fa722defe38d00250ec8d872bb552e6bbc40a1e8bbbf784177eb549d776f"
+  },
+  {
+    "file": "sound.png",
+    "source": "https://play.pokemonshowdown.com/fx/sound.png",
+    "sha256": "331b4e01c9b7f5fdea1fcd3f159f58f4d9019aab53fead7ef928adb67e4e012b"
+  },
+  {
+    "file": "wisp.png",
+    "source": "https://play.pokemonshowdown.com/fx/wisp.png",
+    "sha256": "593615fcc4c1be05b25000e975ef7fab9b524f2c98998df3d276528182e9467d"
+  },
+  {
+    "file": "feather.png",
+    "source": "https://play.pokemonshowdown.com/fx/feather.png",
+    "sha256": "0987f86863b2b380c2fa0d491707b7e4b36921c2f5632e14892a483312703e97"
+  }
+]

@@ -1,0 +1,51 @@
+.exploration-scene{height:235px}
+.exploration-scene .scene-location{top:23px;left:28px}
+.exploration-scene .scene-location h2{font-size:27px;margin-top:10px}
+.exploration-scene .scene-location p{font-size:10px}
+.exploration-scene .exploring-sprites{bottom:25px;left:53%}
+.exploration-scene .exploring-sprites img{height:85px;width:85px}
+.exploration-scene:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,#e6ebd782,transparent 50%)}
+.exploration-scene .scene-caption{z-index:1;bottom:14px;font-size:8px}
+.unknown-paths .section-heading{margin-bottom:5px}
+.exploration-badge{font-size:7px;letter-spacing:1px;display:flex;align-items:center;gap:5px;color:#95a487;background:#f1f4e9;border:1px solid #e5eada;padding:6px 8px;border-radius:5px}
+.swipe-stage{position:relative;display:grid;place-items:center;overflow:hidden;min-height:265px;padding:18px 34px 23px;background:radial-gradient(ellipse at center,#e9efdd55,transparent 65%)}
+.swipe-card{position:relative;z-index:1;isolation:isolate;width:100%;max-width:322px;min-height:228px;border:1px solid #aabb94;border-radius:12px;background:#fbfcf3;padding:18px 21px 15px;box-shadow:0 6px 15px #344f2110;cursor:grab;touch-action:pan-y;user-select:none;transition:transform .25s ease-out,box-shadow .2s}
+.swipe-card:before{content:'';position:absolute;z-index:-1;inset:4px 6px -7px;border:1px solid #d4dec6;border-radius:12px;background:#eef3e4;transform:rotate(-1.7deg)}
+.swipe-card:after{content:'';position:absolute;z-index:-1;inset:0;border-radius:12px;background:#fbfcf3}
+.swipe-card:focus-visible{outline:2px solid #78955d;outline-offset:6px}
+.swipe-card.dragging{transition:none;cursor:grabbing;box-shadow:0 13px 23px #344f211f}
+.swipe-card-top{display:flex;justify-content:space-between;align-items:center;color:#92a180;font-size:7px;letter-spacing:1.3px}
+.swipe-card-top>span:last-child{font-size:10px;border:1px solid #d7dfc9;border-radius:50%;height:17px;width:17px;display:grid;place-items:center;letter-spacing:0}
+.trail-illustration{height:76px;width:190px;position:relative;margin:4px auto 6px;color:#b3c4a0}
+.trail-illustration>svg{position:absolute;inset:0;width:100%;height:100%}
+.trail-illustration>span{position:absolute;bottom:0;left:calc(50% - 17px);display:grid;place-items:center;height:34px;width:34px;border-radius:50%;background:#e5edda;color:#718e58;border:3px solid #fbfcf3}
+.swipe-card h4{text-align:center;font-size:16px;letter-spacing:-.45px;font-weight:700}
+.swipe-card p{text-align:center;font-size:10px;color:#8e9d7d;line-height:1.8;margin-top:9px}
+.swipe-instruction{display:flex;justify-content:center;align-items:center;gap:7px;font-size:9px;font-weight:500;color:#8b9b79;padding-top:14px;margin-top:12px;border-top:1px solid #e5eadb;min-height:30px}
+.swipe-instruction.ready{color:#3d6b3f;font-weight:600}
+.swipe-destination{position:absolute;top:42%;display:flex;flex-direction:column;align-items:center;gap:8px;color:#c1cbb5;transition:color .16s,scale .16s;pointer-events:none}
+.swipe-destination.left{left:15px}.swipe-destination.right{right:15px}
+.swipe-destination>span{font-size:7px;letter-spacing:1px}
+.swipe-destination.lit{color:#547a43;scale:1.1}
+.direction-buttons{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:3px}
+.direction-buttons button{display:flex;align-items:center;gap:16px;justify-content:center;border:1px solid #dce5cf;background:#f4f7eb;border-radius:7px;padding:10px 19px;min-width:120px;color:#73915b}
+.direction-buttons button:hover{background:#eaf1dd;border-color:#98b180}
+.direction-buttons strong{display:block;font-size:11px;font-weight:600;color:#527446}
+.direction-buttons small{display:block;margin-top:4px;font-size:8px;color:#99a78a}
+.path-divider{font-size:9px;color:#b0b8a1}
+.exploration-footnote{text-align:center;font-size:8px;line-height:1.6;color:#a4ae95;margin-top:15px}
+.discovery-card{min-height:324px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;animation:discovery-appear .35s ease-out}
+.discovery-icon{display:grid;place-items:center;width:62px;height:62px;background:#eaf0dc;color:#7c975f;border:1px solid #dce6cd;border-radius:50%;box-shadow:0 0 0 7px #f1f5e9;margin-bottom:24px}
+.discovery-card .eyebrow{font-size:8px;letter-spacing:1.5px}
+.discovery-card h3{font-size:24px;letter-spacing:-.7px;margin-top:13px}
+.discovery-card p{font-size:11px;color:#95a086;margin-top:10px;line-height:1.8}
+.discovery-progress{width:110px;height:3px;overflow:hidden;background:#e7eddb;border-radius:2px;margin-top:25px}
+.discovery-progress span{height:100%;width:100%;background:#9bb780;display:block;transform-origin:left;animation:discovery-timer 1.6s linear}
+.discovery-card .text-button{display:flex;gap:6px;align-items:center;font-size:9px;text-decoration:none;margin-top:10px}
+@keyframes discovery-appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes discovery-timer{from{scale:0 1}to{scale:1 1}}
+@media(min-width:701px){.map-panel .node-group{flex-direction:row-reverse}}
+@media(max-width:1190px){.swipe-card{max-width:285px}.swipe-stage{padding:18px 23px 23px}.swipe-destination.left{left:0}.swipe-destination.right{right:0}}
+@media(max-width:700px){.exploration-scene{height:185px}.exploration-scene .scene-location{top:22px;left:21px}.exploration-scene .scene-location h2{font-size:24px;margin-top:7px}.exploration-scene .scene-location>span{font-size:7px}.exploration-scene .scene-location p{font-size:9px;margin-top:7px}.exploration-scene .exploring-sprites{left:60%;bottom:24px}.exploration-scene .exploring-sprites img{height:65px;width:65px}.exploration-scene .scene-caption{left:20px;font-size:7px;bottom:13px}.exploration-badge{font-size:6px;letter-spacing:.7px;padding:6px}.exploration-badge svg{width:10px}.swipe-stage{min-height:260px;padding:16px 24px 23px}.swipe-card{max-width:300px;padding:16px 17px 14px}.swipe-card h4{font-size:15px}.swipe-card p{font-size:10px}.swipe-destination.left{left:1px}.swipe-destination.right{right:1px}.swipe-destination>span{font-size:5px;letter-spacing:.5px}.swipe-destination>svg{width:15px}.swipe-destination{gap:5px}.direction-buttons{gap:15px}.direction-buttons button{min-width:105px;padding:10px 14px;gap:13px}.direction-buttons strong{font-size:10px}.direction-buttons small{font-size:8px}.direction-buttons>span{font-size:8px}.exploration-footnote{font-size:7px;margin-top:13px}.discovery-card{min-height:330px}.discovery-card h3{font-size:23px}.discovery-card p{font-size:10px}}
+@media(max-width:390px){.swipe-stage{padding:16px 18px 23px}.swipe-card{padding:14px 13px}.swipe-card h4{font-size:13px}.swipe-card p{font-size:9px}.swipe-card-top{font-size:6px}.swipe-instruction{font-size:8px}.trail-illustration{width:170px;height:69px}.direction-buttons{gap:12px}.direction-buttons button{min-width:98px;padding:10px 11px}.direction-buttons strong{font-size:10px}.direction-buttons small{font-size:7px}.exploration-badge{font-size:5px;letter-spacing:.4px}.unknown-paths .section-heading h3{font-size:15px}.exploration-footnote{font-size:6px}}
+@media(prefers-reduced-motion:reduce){.swipe-card,.swipe-destination{transition:none}.discovery-card,.discovery-progress span{animation:none}}
